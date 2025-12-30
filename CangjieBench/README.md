@@ -6,7 +6,7 @@
 > 
 > This Docker sandbox serves as an evaluation environment for **HumanEval** and **ClassEval** benchmarks in the **Cangjie** programming language. Additionally, it provides an API to compile and execute arbitrary Cangjie code in a secure container.
 
----
+
 
 ## 📂 Directory Structure
 
@@ -26,7 +26,7 @@ Below is the file structure required for the project. Note that the Cangjie SDK 
 └── README.md                   # Documentation
 ```
 
----
+
 
 ## <span id="prerequisites">🛠️ Prerequisites
 
@@ -62,7 +62,7 @@ wget https://gitcode.com/Cangjie/cangjie_stdx/releases/download/v1.0.0.1/cangjie
 unzip cangjie-stdx-linux-x64-1.0.0.1.zip
 ```
 
----
+
 
 ## <span id="installation">🚀 Installation
 
@@ -99,7 +99,7 @@ docker image ls
 # cangjie-sandbox     1.0
 ```
 
----
+
 
 ## 💻 Usage
 
@@ -125,7 +125,7 @@ docker ps
 docker logs <container_id>
 ```
 
----
+
 
 ## 🔌 API Documentation
 

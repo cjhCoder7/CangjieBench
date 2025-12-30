@@ -2,11 +2,13 @@
 
 [**🇨🇳 中文**](./README_zh.md) | [**🌐 English**](./README.md)
 
-This repository contains a curated code corpus collected from open-source Cangjie projects, specifically designed for use in **RAG (Code)**.
+> This repository contains a curated code corpus collected from open-source Cangjie projects, specifically designed for use in **RAG (Code)**.
 
 ## Overview
 
 The Cangjie Code Corpus is a collection of Cangjie programming language code snippets extracted from real-world projects. This corpus serves as a valuable resource for understanding Cangjie code.
+
+The corpus was collected up to November 10, 2025.
 
 ## Repository Structure
 

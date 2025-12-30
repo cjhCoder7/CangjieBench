@@ -6,7 +6,7 @@
 > 
 > 本 Docker 沙箱作为 **Cangjie（仓颉）** 编程语言的 **HumanEval** 和 **ClassEval** 基准测试的评测环境。此外，它还提供了一个 API，用于在安全容器中编译和执行任意仓颉代码。
 
----
+
 
 ## 📂 目录结构
 
@@ -26,7 +26,7 @@
 └── README.md                   # 文档
 ```
 
----
+
 
 ## <span id="prerequisites">🛠️ 前置条件
 
@@ -60,7 +60,7 @@ wget https://gitcode.com/Cangjie/cangjie_stdx/releases/download/v1.0.0.1/cangjie
 unzip cangjie-stdx-linux-x64-1.0.0.1.zip
 ```
 
----
+
 
 ## <span id="installation">🚀 安装
 
@@ -97,7 +97,7 @@ docker image ls
 # cangjie-sandbox     1.0
 ```
 
----
+
 
 ## 💻 使用方法
 
@@ -123,7 +123,7 @@ docker ps
 docker logs <container_id>
 ```
 
----
+
 
 ## 🔌 API 文档
 
