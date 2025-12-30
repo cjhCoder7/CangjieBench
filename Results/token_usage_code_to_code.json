@@ -1,0 +1,348 @@
+{
+    "direct": {
+        "DeepSeek-V3": {
+            "HumanEval": {
+                "in_count_avg": 231.89634146341464,
+                "out_count_avg": 125.29268292682927,
+                "all_count_avg": 357.1890243902439
+            },
+            "ClassEval": {
+                "in_count_avg": 814.8452380952381,
+                "out_count_avg": 534.6666666666666,
+                "all_count_avg": 1349.5119047619048
+            }
+        },
+        "ERNIE-4.5-300B-A47B": {
+            "HumanEval": {
+                "in_count_avg": 277.359756097561,
+                "out_count_avg": 251.1219512195122,
+                "all_count_avg": 528.4817073170732
+            },
+            "ClassEval": {
+                "in_count_avg": 969.7738095238095,
+                "out_count_avg": 920.4285714285714,
+                "all_count_avg": 1890.202380952381
+            }
+        },
+        "Qwen3-235B-A22B-Instruct-2507": {
+            "HumanEval": {
+                "in_count_avg": 234.35365853658536,
+                "out_count_avg": 137.359756097561,
+                "all_count_avg": 371.7134146341463
+            },
+            "ClassEval": {
+                "in_count_avg": 817.6666666666666,
+                "out_count_avg": 718.6428571428571,
+                "all_count_avg": 1536.3095238095239
+            }
+        },
+        "Kimi-K2-Instruct-0905": {
+            "HumanEval": {
+                "in_count_avg": 229.5,
+                "out_count_avg": 151.3780487804878,
+                "all_count_avg": 380.8780487804878
+            },
+            "ClassEval": {
+                "in_count_avg": 802.9166666666666,
+                "out_count_avg": 689.9761904761905,
+                "all_count_avg": 1492.892857142857
+            }
+        },
+        "Qwen3-Coder-480B-A35B-Instruct": {
+            "HumanEval": {
+                "in_count_avg": 234.35365853658536,
+                "out_count_avg": 151.1280487804878,
+                "all_count_avg": 385.4817073170732
+            },
+            "ClassEval": {
+                "in_count_avg": 817.6666666666666,
+                "out_count_avg": 840.75,
+                "all_count_avg": 1658.4166666666667
+            }
+        },
+        "gpt-5": {
+            "HumanEval": {
+                "in_count_avg": 229.71951219512195,
+                "out_count_avg": 272.2560975609756,
+                "all_count_avg": 501.9756097560976
+            },
+            "ClassEval": {
+                "in_count_avg": 798.4047619047619,
+                "out_count_avg": 1178.7857142857142,
+                "all_count_avg": 1977.1904761904761
+            }
+        }
+    },
+    "grammar": {
+        "DeepSeek-V3": {
+            "HumanEval": {
+                "in_count_avg": 2570.8963414634145,
+                "out_count_avg": 144.39634146341464,
+                "all_count_avg": 2715.2926829268295
+            },
+            "ClassEval": {
+                "in_count_avg": 3153.845238095238,
+                "out_count_avg": 513.3095238095239,
+                "all_count_avg": 3667.154761904762
+            }
+        },
+        "ERNIE-4.5-300B-A47B": {
+            "HumanEval": {
+                "in_count_avg": 2966.359756097561,
+                "out_count_avg": 258.6951219512195,
+                "all_count_avg": 3225.0548780487807
+            },
+            "ClassEval": {
+                "in_count_avg": 3658.7738095238096,
+                "out_count_avg": 783.6547619047619,
+                "all_count_avg": 4442.428571428572
+            }
+        },
+        "Qwen3-235B-A22B-Instruct-2507": {
+            "HumanEval": {
+                "in_count_avg": 2589.3536585365855,
+                "out_count_avg": 164.609756097561,
+                "all_count_avg": 2753.9634146341464
+            },
+            "ClassEval": {
+                "in_count_avg": 3172.6666666666665,
+                "out_count_avg": 693.5714285714286,
+                "all_count_avg": 3866.2380952380954
+            }
+        },
+        "Kimi-K2-Instruct-0905": {
+            "HumanEval": {
+                "in_count_avg": 2540.5,
+                "out_count_avg": 136.4939024390244,
+                "all_count_avg": 2676.993902439024
+            },
+            "ClassEval": {
+                "in_count_avg": 3113.9166666666665,
+                "out_count_avg": 560.0,
+                "all_count_avg": 3673.9166666666665
+            }
+        },
+        "Qwen3-Coder-480B-A35B-Instruct": {
+            "HumanEval": {
+                "in_count_avg": 2589.3536585365855,
+                "out_count_avg": 257.6158536585366,
+                "all_count_avg": 2846.9695121951218
+            },
+            "ClassEval": {
+                "in_count_avg": 3172.6666666666665,
+                "out_count_avg": 1008.3690476190476,
+                "all_count_avg": 4181.035714285715
+            }
+        },
+        "gpt-5": {
+            "HumanEval": {
+                "in_count_avg": 2560.7195121951218,
+                "out_count_avg": 267.5426829268293,
+                "all_count_avg": 2828.262195121951
+            },
+            "ClassEval": {
+                "in_count_avg": 3129.404761904762,
+                "out_count_avg": 1210.2857142857142,
+                "all_count_avg": 4339.690476190476
+            }
+        }
+    },
+    "rag_code": {
+        "DeepSeek-V3": {
+            "HumanEval": {
+                "in_count_avg": 1115.4268292682927,
+                "out_count_avg": 120.42073170731707,
+                "all_count_avg": 1235.8475609756097
+            },
+            "ClassEval": {
+                "in_count_avg": 2468.095238095238,
+                "out_count_avg": 546.2142857142857,
+                "all_count_avg": 3014.309523809524
+            }
+        },
+        "ERNIE-4.5-300B-A47B": {
+            "HumanEval": {
+                "in_count_avg": 1292.9756097560976,
+                "out_count_avg": 246.40243902439025,
+                "all_count_avg": 1539.378048780488
+            },
+            "ClassEval": {
+                "in_count_avg": 2892.1190476190477,
+                "out_count_avg": 984.2619047619048,
+                "all_count_avg": 3876.3809523809523
+            }
+        },
+        "Qwen3-235B-A22B-Instruct-2507": {
+            "HumanEval": {
+                "in_count_avg": 1123.3292682926829,
+                "out_count_avg": 133.83536585365854,
+                "all_count_avg": 1257.1646341463415
+            },
+            "ClassEval": {
+                "in_count_avg": 2416.809523809524,
+                "out_count_avg": 946.6309523809524,
+                "all_count_avg": 3363.440476190476
+            }
+        },
+        "Kimi-K2-Instruct-0905": {
+            "HumanEval": {
+                "in_count_avg": 1101.9939024390244,
+                "out_count_avg": 121.84146341463415,
+                "all_count_avg": 1223.8353658536585
+            },
+            "ClassEval": {
+                "in_count_avg": 2399.2261904761904,
+                "out_count_avg": 581.6309523809524,
+                "all_count_avg": 2980.8571428571427
+            }
+        },
+        "Qwen3-Coder-480B-A35B-Instruct": {
+            "HumanEval": {
+                "in_count_avg": 1123.3292682926829,
+                "out_count_avg": 159.59146341463415,
+                "all_count_avg": 1282.9207317073171
+            },
+            "ClassEval": {
+                "in_count_avg": 2416.809523809524,
+                "out_count_avg": 1035.5,
+                "all_count_avg": 3452.309523809524
+            }
+        },
+        "gpt-5": {
+            "HumanEval": {
+                "in_count_avg": 1102.1951219512196,
+                "out_count_avg": 244.78048780487805,
+                "all_count_avg": 1346.9756097560976
+            },
+            "ClassEval": {
+                "in_count_avg": 2390.3333333333335,
+                "out_count_avg": 1155.7142857142858,
+                "all_count_avg": 3546.0476190476193
+            }
+        }
+    },
+    "rag_doc": {
+        "DeepSeek-V3": {
+            "HumanEval": {
+                "in_count_avg": 4606.262195121952,
+                "out_count_avg": 240.40853658536585,
+                "all_count_avg": 4846.670731707317
+            },
+            "ClassEval": {
+                "in_count_avg": 5587.464285714285,
+                "out_count_avg": 723.0,
+                "all_count_avg": 6310.464285714285
+            }
+        },
+        "ERNIE-4.5-300B-A47B": {
+            "HumanEval": {
+                "in_count_avg": 4979.518292682927,
+                "out_count_avg": 406.0792682926829,
+                "all_count_avg": 5385.59756097561
+            },
+            "ClassEval": {
+                "in_count_avg": 6134.678571428572,
+                "out_count_avg": 1136.1904761904761,
+                "all_count_avg": 7270.869047619048
+            }
+        },
+        "Qwen3-235B-A22B-Instruct-2507": {
+            "HumanEval": {
+                "in_count_avg": 3811.310975609756,
+                "out_count_avg": 176.79268292682926,
+                "all_count_avg": 3988.1036585365855
+            },
+            "ClassEval": {
+                "in_count_avg": 4971.940476190476,
+                "out_count_avg": 723.547619047619,
+                "all_count_avg": 5695.488095238095
+            }
+        },
+        "Kimi-K2-Instruct-0905": {
+            "HumanEval": {
+                "in_count_avg": 3727.4085365853657,
+                "out_count_avg": 158.34146341463415,
+                "all_count_avg": 3885.75
+            },
+            "ClassEval": {
+                "in_count_avg": 4824.880952380952,
+                "out_count_avg": 574.8809523809524,
+                "all_count_avg": 5399.761904761905
+            }
+        },
+        "Qwen3-Coder-480B-A35B-Instruct": {
+            "HumanEval": {
+                "in_count_avg": 3712.4268292682927,
+                "out_count_avg": 182.1890243902439,
+                "all_count_avg": 3894.6158536585367
+            },
+            "ClassEval": {
+                "in_count_avg": 4876.869047619048,
+                "out_count_avg": 972.3333333333334,
+                "all_count_avg": 5849.202380952381
+            }
+        },
+        "gpt-5": {
+            "HumanEval": {
+                "in_count_avg": 4126.786585365854,
+                "out_count_avg": 304.1036585365854,
+                "all_count_avg": 4430.890243902439
+            },
+            "ClassEval": {
+                "in_count_avg": 5206.5952380952385,
+                "out_count_avg": 1321.7380952380952,
+                "all_count_avg": 6528.333333333333
+            }
+        }
+    },
+    "agent": {
+        "Codex_gpt5": {
+            "HumanEval": {
+                "in_count_avg": 318735.10967741936,
+                "out_count_avg": 3227.367741935484,
+                "all_count_avg": 321962.47741935484
+            },
+            "ClassEval": {
+                "in_count_avg": 514826.5180722892,
+                "out_count_avg": 5926.6626506024095,
+                "all_count_avg": 520753.1807228916
+            }
+        },
+        "iFlow_Kimi-K2-0905": {
+            "HumanEval": {
+                "in_count_avg": 22209.878048780487,
+                "out_count_avg": 283.2743902439024,
+                "all_count_avg": 22493.15243902439
+            },
+            "ClassEval": {
+                "in_count_avg": 22549.428571428572,
+                "out_count_avg": 1126.8690476190477,
+                "all_count_avg": 23676.29761904762
+            }
+        },
+        "iFlow_Qwen3-Coder": {
+            "HumanEval": {
+                "in_count_avg": 31008.073170731706,
+                "out_count_avg": 455.7256097560976,
+                "all_count_avg": 31463.798780487807
+            },
+            "ClassEval": {
+                "in_count_avg": 38036.40476190476,
+                "out_count_avg": 1288.345238095238,
+                "all_count_avg": 39324.75
+            }
+        },
+        "QwenCode_Qwen3-Coder": {
+            "HumanEval": {
+                "in_count_avg": 252853.35975609755,
+                "out_count_avg": 1312.9268292682927,
+                "all_count_avg": 254166.28658536586
+            },
+            "ClassEval": {
+                "in_count_avg": 232395.97619047618,
+                "out_count_avg": 2165.095238095238,
+                "all_count_avg": 234561.07142857142
+            }
+        }
+    }
+}

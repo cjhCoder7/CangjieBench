@@ -1,0 +1,14 @@
+```python
+from typing import List
+
+
+def concatenate(strings: List[str]) -> str:
+    """ Concatenate list of strings into a single string
+    >>> concatenate([])
+    ''
+    >>> concatenate(['a', 'b', 'c'])
+    'abc'
+    """
+```
+
+Write the complete code and wrap it in ```python```. Do not give any explanation.

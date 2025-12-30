@@ -1,0 +1,12 @@
+import std.collection.ArrayList
+
+func concatenate(strings: ArrayList<String>): String {
+    /*
+    Concatenate list of strings into a single string
+    >>> concatenate(ArrayList<String>())
+    ''
+    >>> concatenate(ArrayList<String>(['a', 'b', 'c']))
+    'abc'
+    */
+    
+}

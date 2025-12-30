@@ -1,0 +1,15 @@
+```python
+
+
+def fib(n: int):
+    """Return n-th Fibonacci number.
+    >>> fib(10)
+    55
+    >>> fib(1)
+    1
+    >>> fib(8)
+    21
+    """
+```
+
+Write the complete code and wrap it in ```python```. Do not give any explanation.
