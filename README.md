@@ -20,12 +20,12 @@
 
 - [🤔 What is Cangjie?](#what-is-cangjie) 
 - [🚀 Quickstart](#quickstart)
-- [🛠️ Usage & Evaluation](#%EF%B8%8Fusage--evaluation)
+- [🛠️ Usage & Evaluation](#evaluation)
 - [👋 Overview of Our Report](#overview-of-our-report)
 - [📈 Results](#results)
 - [❓ Checklist](#checklist)
 
-# 🤔What is Cangjie?
+# <span id="what-is-cangjie">🤔What is Cangjie?
 
 Cangjie (designed by [Huawei](https://www.huawei.com/en/)) is a next-generation programming language designed for all-scenario intelligence. It features native AI support, innate all-scenario versatility, high performance, and robust security. Cangjie is suitable for application development across diverse device-cloud environments, providing developers with an exceptional programming experience.
 
@@ -35,7 +35,7 @@ Cangjie (designed by [Huawei](https://www.huawei.com/en/)) is a next-generation 
 * [**Cangjie Runtime**](https://gitcode.com/Cangjie/cangjie_runtime): The runtime environment and standard library for the Cangjie programming language.
 
 
-# 🚀Quickstart
+# <span id="quickstart">🚀Quickstart
 
 ## Requirements
 
@@ -56,7 +56,7 @@ Cangjie (designed by [Huawei](https://www.huawei.com/en/)) is a next-generation 
 
 * **`Evaluate/`**: Scripts to evaluate the outputs.
 
-# 🛠️Usage & Evaluation
+# <span id="evaluation">🛠️Usage & Evaluation
 
 To reproduce our results or evaluate new models, follow the pipeline below.
 
@@ -157,7 +157,7 @@ python Evaluate/evaluate.py \
     --input_file ./path/to/output_HumanEval.jsonl #change to the real path 
 ```
 
-# 👋Overview of Our Report
+# <span id="overview-of-our-report">👋Overview of Our Report
 
 <p align="center">
     <img src="assets/benchmark.png" alt="Cangjie Benchmark" width="100%">
@@ -224,7 +224,7 @@ We implement two RAG strategies using BM25 and query transformation:
 This method employs a **CLI-based agent** that simulates a developer's workflow. The agent can autonomously decide to consult official Cangjie usage guides and API references, allowing it to plan and execute a research-driven workflow to bridge its knowledge gap.
 
 
-# 📈Results
+# <span id="results">📈Results
 
 <p align="center">
     <img src="assets/results.png" alt="Cangjie Results" width="100%">
@@ -232,7 +232,7 @@ This method employs a **CLI-based agent** that simulates a developer's workflow.
 
 The figure above illustrates the primary performance benchmarks of various models. For a comprehensive analysis, please refer to [Results/README.md](./Results/README.md).
 
-# ❓Checklist
+# <span id="checklist">❓Checklist
 
 * [ ] Ensure Docker is running before evaluation.
 * [ ] Refer our [prompts](./Prompts/README.md) if you want to evaluate on your own model or method.

@@ -19,12 +19,12 @@
 
 * [🤔 What is Cangjie?（什么是仓颉？）](#what-is-cangjie)
 * [🚀 Quickstart](#quickstart)
-* [🛠️ Usage & Evaluation（使用与评测）](#%EF%B8%8Fusage--evaluation)
+* [🛠️ Usage & Evaluation（使用与评测）](#evaluation)
 * [👋 Overview of Our Report（报告概览）](#overview-of-our-report)
 * [📈 Results（实验结果）](#results)
 * [❓ Checklist](#checklist)
 
-# 🤔What is Cangjie?
+# <span id="what-is-cangjie">🤔What is Cangjie?
 
 **仓颉（Cangjie）** 是由 [华为（Huawei）](https://www.huawei.com/) 设计的一种面向全场景智能的新一代编程语言。它具备**原生 AI 支持**、**天然的全场景适配能力**、**高性能**以及**强安全性**等特性，适用于多设备—云协同环境下的应用开发，为开发者提供卓越的编程体验。
 
@@ -33,7 +33,7 @@
 * [**仓颉编译器**](https://gitcode.com/Cangjie/cangjie_compiler)：仓颉编译器及 `cjdb` 调试工具的源码
 * [**仓颉运行时**](https://gitcode.com/Cangjie/cangjie_runtime)：仓颉语言的运行时环境与标准库
 
-# 🚀Quickstart
+# <span id="quickstart">🚀Quickstart
 
 ## Requirements（环境要求）
 
@@ -57,7 +57,7 @@
 * **`Evaluate/`**：用于评测模型输出的脚本
 
 
-# 🛠️Usage & Evaluation
+# <span id="evaluation">🛠️Usage & Evaluation
 
 如需复现实验结果或评测新的模型，请按照以下流程操作。
 
@@ -165,7 +165,7 @@ python Evaluate/evaluate.py \
     --input_file ./path/to/output_HumanEval.jsonl
 ```
 
-# 👋Overview of Our Report
+# <span id="overview-of-our-report">👋Overview of Our Report
 
 <p align="center">
     <img src="assets/benchmark.png" alt="Cangjie Benchmark" width="100%">
@@ -237,7 +237,7 @@ CangjieBench 支持两类核心任务，用于探测基础模型的泛化边界�
 
 采用**基于 CLI 的智能体**模拟真实开发流程。Agent 可自主决定是否查阅官方文档与 API，并通过研究驱动的方式弥补其知识缺口。
 
-## 📈Results
+# <span id="results">📈Results
 
 <p align="center">
     <img src="assets/results.png" alt="Cangjie Results" width="100%">
@@ -246,7 +246,7 @@ CangjieBench 支持两类核心任务，用于探测基础模型的泛化边界�
 上图展示了不同模型的主要性能指标。更详细的分析请参见
 [Results/README_zh.md](./Results/README_zh.md)。
 
-# ❓Checklist
+# <span id="checklist">❓Checklist
 
 * [ ] 在评测前确保 Docker 正在运行
 * [ ] 若评测自定义模型或方法，请参考我们的 [Prompts](./Prompts/README_zh.md)

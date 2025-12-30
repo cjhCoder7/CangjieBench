@@ -12,7 +12,7 @@ The corpus was collected up to November 10, 2025.
 
 ## Repository Structure
 
-```
+```text
 .
 ├── functions.jsonl          # Extracted functions
 ├── classes.jsonl            # Extracted classes
