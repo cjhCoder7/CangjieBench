@@ -17,12 +17,12 @@
     <strong><a href="./README_zh.md">🇨🇳 中文</a></strong> | <strong><a href="./README.md">🌐 English</a></strong>
 </h4>
 
-* [🤔 What is Cangjie?（什么是仓颉？）](#🤔what-is-cangjie?)
-* [🚀 Quickstart](#🚀quickstart)
-* [🛠️ Usage & Evaluation（使用与评测）](#🛠️usage--evaluation)
-* [👋 Overview of Our Report（报告概览）](#👋overview-of-our-report)
-* [📈 Results（实验结果）](#📈results)
-* [❓ Checklist](#❓checklist)
+* [🤔 What is Cangjie?（什么是仓颉？）](#what-is-cangjie)
+* [🚀 Quickstart](#quickstart)
+* [🛠️ Usage & Evaluation（使用与评测）](#%EF%B8%8Fusage--evaluation)
+* [👋 Overview of Our Report（报告概览）](#overview-of-our-report)
+* [📈 Results（实验结果）](#results)
+* [❓ Checklist](#checklist)
 
 # 🤔What is Cangjie?
 

@@ -18,12 +18,12 @@
     <strong><a href="./README_zh.md">🇨🇳 中文</a></strong> | <strong><a href="./README.md">🌐 English</a></strong>
 </h4>
 
-- [🤔 What is Cangjie?](#🤔what-is-cangjie?) 
-- [🚀 Quickstart](#🚀quickstart)
-- [🛠️ Usage & Evaluation](#🛠️usage--evaluation)
-- [👋 Overview of Our Report](#👋overview-of-our-report)
-- [📈 Results](#📈results)
-- [❓ Checklist](#❓checklist)
+- [🤔 What is Cangjie?](#what-is-cangjie) 
+- [🚀 Quickstart](#quickstart)
+- [🛠️ Usage & Evaluation](#%EF%B8%8Fusage--evaluation)
+- [👋 Overview of Our Report](#overview-of-our-report)
+- [📈 Results](#results)
+- [❓ Checklist](#checklist)
 
 # 🤔What is Cangjie?
 
@@ -224,7 +224,7 @@ We implement two RAG strategies using BM25 and query transformation:
 This method employs a **CLI-based agent** that simulates a developer's workflow. The agent can autonomously decide to consult official Cangjie usage guides and API references, allowing it to plan and execute a research-driven workflow to bridge its knowledge gap.
 
 
-## 📈Results
+# 📈Results
 
 <p align="center">
     <img src="assets/results.png" alt="Cangjie Results" width="100%">
