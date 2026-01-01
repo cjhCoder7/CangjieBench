@@ -47,3 +47,10 @@
   "repo": "repository/name"
 }
 ```
+
+## 说明
+
+> **关于数据获取的说明：**
+> 出于版权限制，本仓库**未包含**处理后的数据文件（**`functions.jsonl`** 和 **`classes.jsonl`**）。用户需按照以下步骤在本地自行生成这些文件：
+> 1. 运行 `gitcode_crawl.py` 下载原始代码仓库。
+> 2. 执行编译好的 `parse_func_class` 工具，从下载的源代码中提取函数和类。

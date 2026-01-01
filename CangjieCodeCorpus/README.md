@@ -47,3 +47,10 @@ Contains extracted class definitions from Cangjie source code files. Each line i
   "repo": "repository/name"
 }
 ```
+
+## Note
+
+> **Note on Data Access:**
+> Due to copyright restrictions, the processed data files (**`functions.jsonl`** and **`classes.jsonl`**) are **not included** in this repository. Users must generate these files locally by following the steps below:
+> 1. Run `gitcode_crawl.py` to download the raw repositories.
+> 2. Execute the compiled `parse_func_class` tool to extract functions and classes from the downloaded source code.
