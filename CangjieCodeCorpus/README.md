@@ -1,56 +1,63 @@
-# Cangjie Code Corpus
+# 📚 Cangjie Code Corpus
 
-[**🇨🇳 中文**](./README_zh.md) | [**🌐 English**](./README.md)
+<p align="center">
+    <a href="./README_zh.md"><strong>🇨🇳 中文</strong></a> &nbsp;|&nbsp; <a href="./README.md"><strong>🌐 English</strong></a>
+</p>
 
-> This repository contains a curated code corpus collected from open-source Cangjie projects, specifically designed for use in **RAG (Code)**.
+> A curated code corpus collected from open-source Cangjie projects, designed for **RAG (Code)** retrieval.
+
+---
 
 ## Overview
 
-The Cangjie Code Corpus is a collection of Cangjie programming language code snippets extracted from real-world projects. This corpus serves as a valuable resource for understanding Cangjie code.
+The Cangjie Code Corpus is a collection of programming language code snippets extracted from real-world Cangjie projects. It serves as a valuable resource for understanding Cangjie code patterns and enabling few-shot retrieval.
 
-The corpus was collected up to November 10, 2025.
+**Collection cutoff date:** November 10, 2025
 
-## Repository Structure
+---
+
+## Directory Structure
 
 ```text
 .
-├── functions.jsonl          # Extracted functions
-├── classes.jsonl            # Extracted classes
-├── gitcode_crawl.py         # Code for crawling open-source Cangjie projects
-├── parse_func_class.cj      # Cangjie script for extracting functions and classes
+├── functions.jsonl          # Extracted function declarations
+├── classes.jsonl            # Extracted class definitions
+├── gitcode_crawl.py         # Crawler for open-source Cangjie projects
+├── parse_func_class.cj      # Cangjie script for extracting functions & classes
 ├── parse_func_class         # Compiled executable for parsing
 └── repo_info.json           # Metadata about source repositories
 ```
+
+---
 
 ## File Descriptions
 
 ### `functions.jsonl`
 
-Contains extracted function declarations from Cangjie source code files. Each line is a JSON object with the following structure:
+Each line is a JSON object containing an extracted function declaration:
 
-```json
-{
-  "code": "func function_name(parameters): return_type {\n    // function implementation\n}",
-  "source_file": "path/to/source/file.cj",
-  "repo": "repository/name"
-}
-```
+| Field | Description |
+|:--|:--|
+| `code` | Full function source code |
+| `source_file` | Path to the original `.cj` file |
+| `repo` | Repository name |
 
 ### `classes.jsonl`
 
-Contains extracted class definitions from Cangjie source code files. Each line is a JSON object with the following structure:
+Each line is a JSON object containing an extracted class definition:
 
-```json
-{
-  "code": "class ClassName {\n    // class implementation\n}",
-  "source_file": "path/to/source/file.cj",
-  "repo": "repository/name"
-}
-```
+| Field | Description |
+|:--|:--|
+| `code` | Full class source code |
+| `source_file` | Path to the original `.cj` file |
+| `repo` | Repository name |
 
-## Note
+---
 
-> **Note on Data Access:**
-> Due to copyright restrictions, the processed data files (**`functions.jsonl`** and **`classes.jsonl`**) are **not included** in this repository. Users must generate these files locally by following the steps below:
+## Data Access
+
+> [!IMPORTANT]
+> Due to copyright restrictions, the processed data files (`functions.jsonl` and `classes.jsonl`) are **not included** in this repository. To generate them locally:
+>
 > 1. Run `gitcode_crawl.py` to download the raw repositories.
 > 2. Execute the compiled `parse_func_class` tool to extract functions and classes from the downloaded source code.

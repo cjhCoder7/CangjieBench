@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     zsh \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jsonlines flask
+RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jsonlines flask gunicorn
 
 WORKDIR /workspace
 
@@ -23,6 +23,10 @@ COPY compile.sh /workspace/compile.sh
 # COPY main.cj /workspace/main.cj
 COPY app.py /workspace/app.py
 
+ENV GUNICORN_WORKERS=4
+ENV GUNICORN_THREADS=2
+ENV APP_PORT=8080
+
 EXPOSE 8080
 
-CMD ["python3", "app.py"]
+CMD gunicorn --bind 0.0.0.0:${APP_PORT} --workers ${GUNICORN_WORKERS} --threads ${GUNICORN_THREADS} --timeout 120 app:app

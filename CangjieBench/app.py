@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 import subprocess
 import jsonlines
-import time
+import tempfile
+import shutil
 import os
 
 app = Flask(__name__)
@@ -17,6 +18,23 @@ raw_classeval_datas = []
 with jsonlines.open(raw_classeval_datas_file, 'r') as reader:
     for data in reader:
         raw_classeval_datas.append(data)
+
+
+def compile_and_run(code, timeout):
+    """Compile and run Cangjie code in an isolated temp directory."""
+    tmpdir = tempfile.mkdtemp(prefix="cj_", dir="/tmp")
+    try:
+        src_path = os.path.join(tmpdir, "main.cj")
+        with open(src_path, 'w') as f:
+            f.write(code)
+        result = subprocess.run(
+            ["bash", "/workspace/compile.sh", tmpdir],
+            capture_output=True, text=True, timeout=timeout
+        )
+        return result
+    finally:
+        shutil.rmtree(tmpdir, ignore_errors=True)
+
 
 @app.route('/evaluate_humaneval', methods=['POST'])
 def evaluate_humaneval():
@@ -45,7 +63,7 @@ def evaluate_humaneval():
             test = raw_data['test']
             find_flag = True
             break
-    
+
     if not find_flag:
         return jsonify(
             {
@@ -59,10 +77,8 @@ def evaluate_humaneval():
                 }
             })
 
-    with open('main.cj', 'w') as f:
-        f.write(solution + '\n' + test)
     try:
-        result = subprocess.run("bash compile.sh", shell=True, capture_output=True, text=True, timeout=timeout)
+        result = compile_and_run(solution + '\n' + test, timeout)
     except subprocess.TimeoutExpired:
         return jsonify(
             {
@@ -102,11 +118,6 @@ def evaluate_humaneval():
                 }
             })
 
-    if os.path.exists("default.cjo"):
-        os.remove("default.cjo")
-    if os.path.exists("main"):
-        os.remove("main")
-    
     return jsonify(
             {
                 "passed": True,
@@ -139,14 +150,14 @@ def evaluate_classeval():
                     "stderr": None
                 }
             })
-    
+
     find_flag = False
     for raw_data in raw_classeval_datas:
         if raw_data['id'] == id:
             tests = raw_data['test']
             find_flag = True
             break
-    
+
     if not find_flag:
         return jsonify(
             {
@@ -165,11 +176,8 @@ def evaluate_classeval():
     stdout = []
     stderr = []
     for test in tests:
-        with open(f'main.cj', 'w') as f:
-            f.write(solution + '\n' + test)
-        
         try:
-            result = subprocess.run(f"bash compile.sh", shell=True, capture_output=True, text=True, timeout=timeout)
+            result = compile_and_run(solution + '\n' + test, timeout)
         except subprocess.TimeoutExpired:
             status.append(False)
             return_code.append(None)
@@ -190,16 +198,11 @@ def evaluate_classeval():
             stdout.append(result.stdout)
             stderr.append(result.stderr)
             continue
-        
+
         status.append(True)
         return_code.append(result.returncode)
         stdout.append(result.stdout)
         stderr.append(None)
-    
-    if os.path.exists("default.cjo"):
-        os.remove("default.cjo")
-    if os.path.exists("main"):
-        os.remove("main")
 
     return jsonify(
             {
@@ -234,10 +237,8 @@ def run_code():
                 }
             })
 
-    with open('main.cj', 'w') as f:
-        f.write(solution)
     try:
-        result = subprocess.run(f"bash compile.sh", shell=True, capture_output=True, text=True, timeout=timeout)
+        result = compile_and_run(solution, timeout)
     except subprocess.TimeoutExpired:
         return jsonify(
             {
@@ -264,11 +265,6 @@ def run_code():
                 }
             })
 
-    if os.path.exists("default.cjo"):
-        os.remove("default.cjo")
-    if os.path.exists("main"):
-        os.remove("main")
-    
     return jsonify(
             {
                 "message": "",
