@@ -7,6 +7,7 @@
 <p align="center">
     <img alt="Cangjie Lang" src="https://img.shields.io/badge/Cangjie_Lang.-1.0.0-blue">
     <img alt="cjc" src="https://img.shields.io/badge/cjc-v1.0.0-brightgreen">
+    <a href="https://arxiv.org/abs/2603.14501"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2603.14501-b31b1b.svg"></a>
     <img alt="dataset" src="https://img.shields.io/badge/dataset-open-purple">
     <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-orange.svg">
     <!-- <img alt="Venue" src="https://img.shields.io/badge/ACL-2026-red"> -->
