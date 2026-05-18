@@ -167,17 +167,38 @@ POST /evaluate_humaneval
 | `solution` | `string` | 待评测的仓颉代码 |
 
 <details>
-<summary><b>响应示例</b></summary>
+<summary><b>响应示例（通过）</b></summary>
 
 ```json
 {
     "passed": true,
     "message": "",
+    "failure_kind": "passed",
     "run_result": {
         "status": [true],
+        "failure_kind": ["passed"],
         "return_code": [0],
         "stdout": ["All tests passed."],
         "stderr": [null]
+    }
+}
+```
+</details>
+
+<details>
+<summary><b>响应示例（失败）</b></summary>
+
+```json
+{
+    "passed": false,
+    "message": "error: expected '(', found 'i'",
+    "failure_kind": "compile_error",
+    "run_result": {
+        "status": [false],
+        "failure_kind": ["compile_error"],
+        "return_code": [1],
+        "stdout": [""],
+        "stderr": ["error: expected '(', found 'i'"]
     }
 }
 ```
@@ -193,7 +214,7 @@ POST /evaluate_humaneval
 POST /evaluate_classeval
 ```
 
-**请求体：**
+**请求 Body：**
 
 | 字段 | 类型 | 说明 |
 |:--|:--|:--|
@@ -202,17 +223,39 @@ POST /evaluate_classeval
 | `solution` | `string` | 待评测的仓颉代码 |
 
 <details>
-<summary><b>响应示例</b></summary>
+<summary><b>响应示例（通过）</b></summary>
 
 ```json
 {
     "passed": true,
     "message": "",
+    "failure_kind": "passed",
     "main_function_passed": true,
     "run_result": {
         "status": [true, true, true],
+        "failure_kind": ["passed", "passed", "passed"],
         "return_code": [0, 0, 0],
         "stdout": ["...", "...", "..."],
+        "stderr": [null, null, null]
+    }
+}
+```
+</details>
+
+<details>
+<summary><b>响应示例（部分失败）</b></summary>
+
+```json
+{
+    "passed": false,
+    "message": "",
+    "failure_kind": "test_failure",
+    "main_function_passed": true,
+    "run_result": {
+        "status": [false, true, true],
+        "failure_kind": ["test_failure", "passed", "passed"],
+        "return_code": [1, 0, 0],
+        "stdout": ["fail", "...", "..."],
         "stderr": [null, null, null]
     }
 }
@@ -229,7 +272,7 @@ POST /evaluate_classeval
 POST /run_code
 ```
 
-**请求体：**
+**请求 Body：**
 
 | 字段 | 类型 | 说明 |
 |:--|:--|:--|
@@ -237,17 +280,38 @@ POST /run_code
 | `solution` | `string` | 待运行的仓颉代码 |
 
 <details>
-<summary><b>响应示例</b></summary>
+<summary><b>响应示例（通过）</b></summary>
 
 ```json
 {
     "message": "",
+    "failure_kind": "passed",
     "output": "Hello, Cangjie!",
     "run_result": {
         "status": [true],
+        "failure_kind": ["passed"],
         "return_code": [0],
         "stdout": ["Hello, Cangjie!"],
         "stderr": [null]
+    }
+}
+```
+</details>
+
+<details>
+<summary><b>响应示例（编译错误）</b></summary>
+
+```json
+{
+    "message": "error: expected '(', found 'i'",
+    "failure_kind": "compile_error",
+    "output": null,
+    "run_result": {
+        "status": [false],
+        "failure_kind": ["compile_error"],
+        "return_code": [1],
+        "stdout": [""],
+        "stderr": ["error: expected '(', found 'i'"]
     }
 }
 ```

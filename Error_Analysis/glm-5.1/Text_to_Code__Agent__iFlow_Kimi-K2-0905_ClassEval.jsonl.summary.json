@@ -1,0 +1,30 @@
+{
+  "output_file": "error_analysis/glm-5.1/Text_to_Code__Agent__iFlow_Kimi-K2-0905_ClassEval.jsonl.llm_labels.jsonl",
+  "expected_rows": 69,
+  "actual_rows": 69,
+  "unique_sample_keys": 69,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 69
+  },
+  "label_counts": {
+    "API_LIBRARY_MISUSE": 34,
+    "SYNTAX_FOREIGN_CONSTRUCT": 14,
+    "TYPE_MUTABILITY_MISUSE": 14,
+    "LOGIC_ERROR": 7
+  },
+  "confidence_counts": {
+    "high": 69
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

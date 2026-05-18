@@ -1,0 +1,20 @@
+{
+  "input_file": "Pass10/DeepSeek-V3_HumanEval_10samples_concurrent.jsonl",
+  "dataset": "HumanEval",
+  "total_tasks": 164,
+  "samples_per_task": 10,
+  "total_samples": 1640,
+  "pass_at_10_count": 111,
+  "pass_at_10_rate": 0.676829268292683,
+  "pass_at_1_count": 671,
+  "pass_at_1_rate": 0.4091463414634146,
+  "compile_error_count": 885,
+  "compile_success_count": 751,
+  "timeout_count": 4,
+  "compile_success_rate": 0.4579268292682927,
+  "total_input_tokens": 4188390,
+  "total_output_tokens": 480222,
+  "avg_input_tokens_per_task": 25538.963414634145,
+  "avg_output_tokens_per_task": 2928.182926829268,
+  "records_file": "Pass10/DeepSeek-V3_HumanEval_pass10.records.jsonl"
+}

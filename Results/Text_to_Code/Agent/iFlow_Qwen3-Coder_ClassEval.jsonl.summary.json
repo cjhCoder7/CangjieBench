@@ -1,0 +1,27 @@
+{
+  "input_file": "Text_to_Code/Agent/iFlow_Qwen3-Coder_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 4,
+  "compile_error_count": 75,
+  "compile_success_count": 8,
+  "timeout_count": 1,
+  "pass_rate": 0.047619047619047616,
+  "compile_error_rate": 0.8928571428571429,
+  "compile_success_rate": 0.09523809523809523,
+  "failure_kind_counts": {
+    "compile_error": 75,
+    "test_failure": 4,
+    "passed": 4,
+    "runtime_exception": 1
+  },
+  "all_function_count": 342,
+  "success_function_count": 33,
+  "main_function_count": 84,
+  "success_main_function_count": 8,
+  "function_pass_rate": 0.09649122807017543,
+  "main_function_pass_rate": 0.09523809523809523,
+  "records_file": "Text_to_Code/Agent/iFlow_Qwen3-Coder_ClassEval.jsonl.records.jsonl",
+  "timeout": 240,
+  "max_workers": 2
+}

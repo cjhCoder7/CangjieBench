@@ -1,0 +1,20 @@
+{
+  "input_file": "Code_to_Code/RAG(Code)/ERNIE-4.5-300B-A47B_HumanEval_code.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 29,
+  "compile_error_count": 133,
+  "compile_success_count": 31,
+  "timeout_count": 0,
+  "pass_rate": 0.17682926829268292,
+  "compile_error_rate": 0.8109756097560976,
+  "compile_success_rate": 0.18902439024390244,
+  "failure_kind_counts": {
+    "compile_error": 133,
+    "passed": 29,
+    "runtime_exception": 2
+  },
+  "records_file": "Code_to_Code/RAG(Code)/ERNIE-4.5-300B-A47B_HumanEval_code.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

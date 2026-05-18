@@ -1,12 +1,13 @@
 import http.client
 import json
+import os
 import subprocess
 import time
 import shutil
 from pathlib import Path
 from urllib.parse import quote
 
-ACCESS_TOKEN = "your_gitcode_access_token"
+ACCESS_TOKEN = os.environ.get("GITCODE_ACCESS_TOKEN", "")
 KEY_WORD = ["Cangjie", quote("仓颉")]
 PAGE_INDEX = [i for i in range(1, 101)]
 PER_PAGE = 50

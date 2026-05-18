@@ -1,0 +1,21 @@
+{
+  "input_file": "Text_to_Code/Agent/iFlow_Qwen3-Coder_HumanEval.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 49,
+  "compile_error_count": 111,
+  "compile_success_count": 53,
+  "timeout_count": 0,
+  "pass_rate": 0.29878048780487804,
+  "compile_error_rate": 0.676829268292683,
+  "compile_success_rate": 0.3231707317073171,
+  "failure_kind_counts": {
+    "compile_error": 111,
+    "passed": 49,
+    "runtime_exception": 1,
+    "test_failure": 3
+  },
+  "records_file": "Text_to_Code/Agent/iFlow_Qwen3-Coder_HumanEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

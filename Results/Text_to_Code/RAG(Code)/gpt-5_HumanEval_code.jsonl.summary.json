@@ -1,0 +1,21 @@
+{
+  "input_file": "Text_to_Code/RAG(Code)/gpt-5_HumanEval_code.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 77,
+  "compile_error_count": 83,
+  "compile_success_count": 81,
+  "timeout_count": 0,
+  "pass_rate": 0.4695121951219512,
+  "compile_error_rate": 0.5060975609756098,
+  "compile_success_rate": 0.49390243902439024,
+  "failure_kind_counts": {
+    "compile_error": 83,
+    "passed": 77,
+    "test_failure": 3,
+    "runtime_exception": 1
+  },
+  "records_file": "Text_to_Code/RAG(Code)/gpt-5_HumanEval_code.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

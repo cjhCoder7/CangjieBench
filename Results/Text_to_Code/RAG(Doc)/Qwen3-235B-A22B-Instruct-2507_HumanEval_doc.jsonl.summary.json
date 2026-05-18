@@ -1,0 +1,21 @@
+{
+  "input_file": "Text_to_Code/RAG(Doc)/Qwen3-235B-A22B-Instruct-2507_HumanEval_doc.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 19,
+  "compile_error_count": 143,
+  "compile_success_count": 21,
+  "timeout_count": 0,
+  "pass_rate": 0.11585365853658537,
+  "compile_error_rate": 0.8719512195121951,
+  "compile_success_rate": 0.12804878048780488,
+  "failure_kind_counts": {
+    "compile_error": 143,
+    "passed": 19,
+    "runtime_exception": 1,
+    "test_failure": 1
+  },
+  "records_file": "Text_to_Code/RAG(Doc)/Qwen3-235B-A22B-Instruct-2507_HumanEval_doc.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

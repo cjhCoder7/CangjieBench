@@ -1,0 +1,30 @@
+{
+  "output_file": "error_analysis/glm-5.1/Text_to_Code__Direct__ERNIE-4.5-300B-A47B_HumanEval.jsonl.llm_labels.jsonl",
+  "expected_rows": 159,
+  "actual_rows": 159,
+  "unique_sample_keys": 159,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 159
+  },
+  "label_counts": {
+    "SYNTAX_FOREIGN_CONSTRUCT": 153,
+    "API_LIBRARY_MISUSE": 4,
+    "LOGIC_ERROR": 1,
+    "RUNTIME_EXCEPTION": 1
+  },
+  "confidence_counts": {
+    "high": 159
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "input_file": "Code_to_Code/Syntax_Constrained/Qwen3-235B-A22B-Instruct-2507_HumanEval.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 74,
+  "compile_error_count": 86,
+  "compile_success_count": 78,
+  "timeout_count": 0,
+  "pass_rate": 0.45121951219512196,
+  "compile_error_rate": 0.524390243902439,
+  "compile_success_rate": 0.47560975609756095,
+  "failure_kind_counts": {
+    "compile_error": 86,
+    "passed": 74,
+    "test_failure": 4
+  },
+  "records_file": "Code_to_Code/Syntax_Constrained/Qwen3-235B-A22B-Instruct-2507_HumanEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

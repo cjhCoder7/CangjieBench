@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Direct Generation
+## 1. Direct Prompting
 
 The model receives only the problem description (Text-to-Code) or Python source (Code-to-Code), relying entirely on pre-trained weights to infer syntax and semantics.
 
@@ -23,9 +23,9 @@ The model receives only the problem description (Text-to-Code) or Python source 
 
 ---
 
-## 2. Syntax-Constrained Generation
+## 2. Syntax-Constrained Prompting
 
-Simplified **Cangjie grammar rules** are injected into the prompt to mitigate invalid syntax, guiding the model via in-context learning.
+A concise **Cangjie grammar cheat sheet** (2,146 tokens, covering 20 categories) is injected into the prompt to mitigate invalid syntax, guiding the model via in-context learning.
 
 | File | Description |
 |:--|:--|
@@ -37,11 +37,11 @@ Simplified **Cangjie grammar rules** are injected into the prompt to mitigate in
 
 ## 3. Retrieval-Augmented Generation (RAG)
 
-Two BM25-based retrieval strategies with query transformation:
+Two BM25-based retrieval strategies (top-$k=3$) with query transformation:
 
 ### RAG (Docs)
 
-Retrieves relevant official usage guides and API documentation.
+Retrieves relevant official usage guides and API documentation. A keyword-extraction step transforms the natural-language query into technical keywords before issuing them to BM25.
 
 | File | Description |
 |:--|:--|
@@ -53,7 +53,7 @@ Retrieves relevant official usage guides and API documentation.
 
 ### RAG (Code)
 
-Retrieves few-shot examples from a curated repository of Cangjie code snippets.
+Retrieves few-shot examples from a curated repository of Cangjie code snippets. The prompt is issued directly to BM25 because it already contains code-shaped material such as signatures and type hints.
 
 | File | Description |
 |:--|:--|
@@ -66,7 +66,7 @@ Retrieves few-shot examples from a curated repository of Cangjie code snippets.
 
 ## 4. Agent
 
-A **CLI-based agent** simulates a developer's workflow, autonomously consulting official Cangjie docs and APIs to bridge its knowledge gap.
+A **CLI-based agent** (Codex CLI, Qwen Code CLI, or iFlow CLI) simulates a developer's workflow: it reads documentation, writes code, runs the compiler, and revises its output across several turns.
 
 | File | Description |
 |:--|:--|

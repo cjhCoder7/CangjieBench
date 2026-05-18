@@ -1,0 +1,26 @@
+{
+  "input_file": "Text_to_Code/Agent/iFlow_Kimi-K2-0905_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 15,
+  "compile_error_count": 62,
+  "compile_success_count": 22,
+  "timeout_count": 0,
+  "pass_rate": 0.17857142857142858,
+  "compile_error_rate": 0.7380952380952381,
+  "compile_success_rate": 0.2619047619047619,
+  "failure_kind_counts": {
+    "compile_error": 62,
+    "test_failure": 7,
+    "passed": 15
+  },
+  "all_function_count": 342,
+  "success_function_count": 79,
+  "main_function_count": 84,
+  "success_main_function_count": 19,
+  "function_pass_rate": 0.2309941520467836,
+  "main_function_pass_rate": 0.2261904761904762,
+  "records_file": "Text_to_Code/Agent/iFlow_Kimi-K2-0905_ClassEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

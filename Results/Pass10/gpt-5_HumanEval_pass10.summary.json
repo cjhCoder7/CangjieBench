@@ -1,0 +1,20 @@
+{
+  "input_file": "Pass10/gpt-5_HumanEval_10samples_concurrent.jsonl",
+  "dataset": "HumanEval",
+  "total_tasks": 164,
+  "samples_per_task": 10,
+  "total_samples": 1640,
+  "pass_at_10_count": 158,
+  "pass_at_10_rate": 0.9634146341463414,
+  "pass_at_1_count": 1084,
+  "pass_at_1_rate": 0.6609756097560976,
+  "compile_error_count": 506,
+  "compile_success_count": 1134,
+  "timeout_count": 0,
+  "compile_success_rate": 0.6914634146341463,
+  "total_input_tokens": 4162116,
+  "total_output_tokens": 3445560,
+  "avg_input_tokens_per_task": 25378.756097560974,
+  "avg_output_tokens_per_task": 21009.51219512195,
+  "records_file": "Pass10/gpt-5_HumanEval_pass10.records.jsonl"
+}

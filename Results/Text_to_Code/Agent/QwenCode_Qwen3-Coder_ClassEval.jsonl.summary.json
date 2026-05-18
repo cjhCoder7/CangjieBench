@@ -1,0 +1,26 @@
+{
+  "input_file": "Text_to_Code/Agent/QwenCode_Qwen3-Coder_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 6,
+  "compile_error_count": 77,
+  "compile_success_count": 7,
+  "timeout_count": 0,
+  "pass_rate": 0.07142857142857142,
+  "compile_error_rate": 0.9166666666666666,
+  "compile_success_rate": 0.08333333333333333,
+  "failure_kind_counts": {
+    "compile_error": 77,
+    "test_failure": 1,
+    "passed": 6
+  },
+  "all_function_count": 342,
+  "success_function_count": 31,
+  "main_function_count": 84,
+  "success_main_function_count": 7,
+  "function_pass_rate": 0.09064327485380116,
+  "main_function_pass_rate": 0.08333333333333333,
+  "records_file": "Text_to_Code/Agent/QwenCode_Qwen3-Coder_ClassEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

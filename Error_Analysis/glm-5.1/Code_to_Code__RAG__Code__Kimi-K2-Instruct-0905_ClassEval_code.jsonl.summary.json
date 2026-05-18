@@ -1,0 +1,29 @@
+{
+  "output_file": "error_analysis/glm-5.1/Code_to_Code__RAG__Code__Kimi-K2-Instruct-0905_ClassEval_code.jsonl.llm_labels.jsonl",
+  "expected_rows": 76,
+  "actual_rows": 76,
+  "unique_sample_keys": 76,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 76
+  },
+  "label_counts": {
+    "API_LIBRARY_MISUSE": 47,
+    "SYNTAX_FOREIGN_CONSTRUCT": 24,
+    "TYPE_MUTABILITY_MISUSE": 5
+  },
+  "confidence_counts": {
+    "high": 76
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

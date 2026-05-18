@@ -1,0 +1,20 @@
+{
+  "input_file": "Pass10/Qwen3-Coder-480B-A35B-Instruct_HumanEval_10samples_concurrent.jsonl",
+  "dataset": "HumanEval",
+  "total_tasks": 164,
+  "samples_per_task": 10,
+  "total_samples": 1640,
+  "pass_at_10_count": 105,
+  "pass_at_10_rate": 0.6402439024390244,
+  "pass_at_1_count": 697,
+  "pass_at_1_rate": 0.425,
+  "compile_error_count": 859,
+  "compile_success_count": 775,
+  "timeout_count": 6,
+  "compile_success_rate": 0.4725609756097561,
+  "total_input_tokens": 4223580,
+  "total_output_tokens": 377470,
+  "avg_input_tokens_per_task": 25753.536585365855,
+  "avg_output_tokens_per_task": 2301.6463414634145,
+  "records_file": "Pass10/Qwen3-Coder-480B-A35B-Instruct_HumanEval_pass10.records.jsonl"
+}

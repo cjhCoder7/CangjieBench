@@ -1,0 +1,32 @@
+{
+  "output_file": "error_analysis/kimi-k2.6/Text_to_Code__Syntax_Constrained__ERNIE-4.5-300B-A47B_HumanEval.jsonl.llm_labels.jsonl",
+  "expected_rows": 104,
+  "actual_rows": 104,
+  "unique_sample_keys": 104,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 104
+  },
+  "label_counts": {
+    "SYNTAX_FOREIGN_CONSTRUCT": 45,
+    "API_LIBRARY_MISUSE": 33,
+    "TYPE_MUTABILITY_MISUSE": 14,
+    "DUPLICATE_DEFINITION_OR_HARNESS_CONFLICT": 7,
+    "LOGIC_ERROR": 4,
+    "TIMEOUT": 1
+  },
+  "confidence_counts": {
+    "high": 104
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

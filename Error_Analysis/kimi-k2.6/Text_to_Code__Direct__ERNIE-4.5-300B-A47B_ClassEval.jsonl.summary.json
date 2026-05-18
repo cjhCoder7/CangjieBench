@@ -1,0 +1,28 @@
+{
+  "output_file": "error_analysis/kimi-k2.6/Text_to_Code__Direct__ERNIE-4.5-300B-A47B_ClassEval.jsonl.llm_labels.jsonl",
+  "expected_rows": 84,
+  "actual_rows": 84,
+  "unique_sample_keys": 84,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 84
+  },
+  "label_counts": {
+    "SYNTAX_FOREIGN_CONSTRUCT": 80,
+    "API_LIBRARY_MISUSE": 4
+  },
+  "confidence_counts": {
+    "high": 84
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

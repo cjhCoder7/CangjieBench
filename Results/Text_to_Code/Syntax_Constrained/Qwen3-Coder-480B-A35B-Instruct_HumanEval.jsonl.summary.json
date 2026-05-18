@@ -1,0 +1,22 @@
+{
+  "input_file": "Text_to_Code/Syntax_Constrained/Qwen3-Coder-480B-A35B-Instruct_HumanEval.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 70,
+  "compile_error_count": 85,
+  "compile_success_count": 78,
+  "timeout_count": 1,
+  "pass_rate": 0.4268292682926829,
+  "compile_error_rate": 0.5182926829268293,
+  "compile_success_rate": 0.47560975609756095,
+  "failure_kind_counts": {
+    "passed": 70,
+    "compile_error": 85,
+    "runtime_exception": 2,
+    "test_failure": 6,
+    "timeout": 1
+  },
+  "records_file": "Text_to_Code/Syntax_Constrained/Qwen3-Coder-480B-A35B-Instruct_HumanEval.jsonl.records.jsonl",
+  "timeout": 240,
+  "max_workers": 4
+}

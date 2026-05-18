@@ -1,0 +1,21 @@
+{
+  "input_file": "Code_to_Code/Agent/QwenCode_Qwen3-Coder_HumanEval.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 39,
+  "compile_error_count": 119,
+  "compile_success_count": 45,
+  "timeout_count": 0,
+  "pass_rate": 0.23780487804878048,
+  "compile_error_rate": 0.725609756097561,
+  "compile_success_rate": 0.27439024390243905,
+  "failure_kind_counts": {
+    "passed": 39,
+    "compile_error": 119,
+    "runtime_exception": 1,
+    "test_failure": 5
+  },
+  "records_file": "Code_to_Code/Agent/QwenCode_Qwen3-Coder_HumanEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

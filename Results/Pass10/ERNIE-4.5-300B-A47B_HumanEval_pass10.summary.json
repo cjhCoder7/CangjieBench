@@ -1,0 +1,20 @@
+{
+  "input_file": "Pass10/ERNIE-4.5-300B-A47B_HumanEval_10samples_concurrent.jsonl",
+  "dataset": "HumanEval",
+  "total_tasks": 164,
+  "samples_per_task": 10,
+  "total_samples": 1640,
+  "pass_at_10_count": 120,
+  "pass_at_10_rate": 0.7317073170731707,
+  "pass_at_1_count": 633,
+  "pass_at_1_rate": 0.38597560975609757,
+  "compile_error_count": 948,
+  "compile_success_count": 691,
+  "timeout_count": 1,
+  "compile_success_rate": 0.42134146341463413,
+  "total_input_tokens": 4835310,
+  "total_output_tokens": 642476,
+  "avg_input_tokens_per_task": 29483.59756097561,
+  "avg_output_tokens_per_task": 3917.5365853658536,
+  "records_file": "Pass10/ERNIE-4.5-300B-A47B_HumanEval_pass10.records.jsonl"
+}

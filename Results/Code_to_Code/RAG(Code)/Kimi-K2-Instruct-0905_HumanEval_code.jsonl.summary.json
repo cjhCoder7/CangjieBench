@@ -1,0 +1,21 @@
+{
+  "input_file": "Code_to_Code/RAG(Code)/Kimi-K2-Instruct-0905_HumanEval_code.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 44,
+  "compile_error_count": 112,
+  "compile_success_count": 52,
+  "timeout_count": 0,
+  "pass_rate": 0.2682926829268293,
+  "compile_error_rate": 0.6829268292682927,
+  "compile_success_rate": 0.3170731707317073,
+  "failure_kind_counts": {
+    "compile_error": 112,
+    "passed": 44,
+    "runtime_exception": 2,
+    "test_failure": 6
+  },
+  "records_file": "Code_to_Code/RAG(Code)/Kimi-K2-Instruct-0905_HumanEval_code.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

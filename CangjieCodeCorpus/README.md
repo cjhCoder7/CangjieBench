@@ -14,6 +14,8 @@ The Cangjie Code Corpus is a collection of programming language code snippets ex
 
 **Collection cutoff date:** November 10, 2025
 
+After filtering to repositories whose code is at least 80% Cangjie and parsing with the Cangjie AST tool, the corpus contains **30,341 functions** and **31,483 class definitions**.
+
 ---
 
 ## Directory Structure

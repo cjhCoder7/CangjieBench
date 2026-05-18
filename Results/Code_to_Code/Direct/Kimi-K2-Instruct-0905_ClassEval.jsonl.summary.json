@@ -1,0 +1,25 @@
+{
+  "input_file": "Code_to_Code/Direct/Kimi-K2-Instruct-0905_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 7,
+  "compile_error_count": 77,
+  "compile_success_count": 7,
+  "timeout_count": 0,
+  "pass_rate": 0.08333333333333333,
+  "compile_error_rate": 0.9166666666666666,
+  "compile_success_rate": 0.08333333333333333,
+  "failure_kind_counts": {
+    "compile_error": 77,
+    "passed": 7
+  },
+  "all_function_count": 342,
+  "success_function_count": 30,
+  "main_function_count": 84,
+  "success_main_function_count": 7,
+  "function_pass_rate": 0.08771929824561403,
+  "main_function_pass_rate": 0.08333333333333333,
+  "records_file": "Code_to_Code/Direct/Kimi-K2-Instruct-0905_ClassEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

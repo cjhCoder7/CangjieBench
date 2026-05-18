@@ -4,6 +4,7 @@ import jsonlines
 import tempfile
 import shutil
 import os
+import re
 
 app = Flask(__name__)
 
@@ -18,6 +19,14 @@ raw_classeval_datas = []
 with jsonlines.open(raw_classeval_datas_file, 'r') as reader:
     for data in reader:
         raw_classeval_datas.append(data)
+
+ANSI_ESCAPE_RE = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
+
+
+def clean_output(text):
+    if text is None:
+        return None
+    return ANSI_ESCAPE_RE.sub("", text)
 
 
 def compile_and_run(code, timeout):
@@ -36,6 +45,26 @@ def compile_and_run(code, timeout):
         shutil.rmtree(tmpdir, ignore_errors=True)
 
 
+def judge_result(result):
+    """Return (passed, failure_kind) for a compile+run subprocess result."""
+    stderr = clean_output(result.stderr) or ""
+    stdout = clean_output(result.stdout) or ""
+    stderr_lower = stderr.lower()
+    stdout_lower = stdout.lower()
+
+    if "test failed" in stderr_lower or "test failed" in stdout_lower:
+        return False, "test_failure"
+    if "fail" in stdout_lower:
+        return False, "test_failure"
+    if "error" in stderr_lower:
+        return False, "compile_error"
+    if result.returncode != 0:
+        if "an exception has occurred" in stderr_lower or "exception:" in stderr_lower:
+            return False, "runtime_exception"
+        return False, "nonzero_exit"
+    return True, "passed"
+
+
 @app.route('/evaluate_humaneval', methods=['POST'])
 def evaluate_humaneval():
     answer = request.get_json()
@@ -49,8 +78,10 @@ def evaluate_humaneval():
             {
                 "passed": False,
                 "message": f"error: {e}",
+                "failure_kind": "bad_request",
                 "run_result": {
                     "status": None,
+                    "failure_kind": None,
                     "return_code": None,
                     "stdout": None,
                     "stderr": None
@@ -69,8 +100,10 @@ def evaluate_humaneval():
             {
                 "passed": False,
                 "message": f"error: {id} not found",
+                "failure_kind": "missing_dataset_item",
                 "run_result": {
                     "status": None,
+                    "failure_kind": None,
                     "return_code": None,
                     "stdout": None,
                     "stderr": None
@@ -84,37 +117,29 @@ def evaluate_humaneval():
             {
                 "passed": False,
                 "message": "error: compile and run timeout",
+                "failure_kind": "timeout",
                 "run_result": {
                     "status": [False],
+                    "failure_kind": ["timeout"],
                     "return_code": [None],
                     "stdout": [None],
                     "stderr": [None]
                 }
             })
 
-    if "error" in result.stderr:
+    passed, failure_kind = judge_result(result)
+    if not passed:
         return jsonify(
             {
                 "passed": False,
-                "message": f"error: {result.stderr}",
+                "message": f"error: {clean_output(result.stderr) or clean_output(result.stdout)}",
+                "failure_kind": failure_kind,
                 "run_result": {
                     "status": [False],
+                    "failure_kind": [failure_kind],
                     "return_code": [result.returncode],
-                    "stdout": [result.stdout],
-                    "stderr": [result.stderr]
-                }
-            })
-
-    if "fail" in result.stdout.lower():
-        return jsonify(
-            {
-                "passed": False,
-                "message": f"error: {result.stdout}",
-                "run_result": {
-                    "status": [False],
-                    "return_code": [result.returncode],
-                    "stdout": [result.stdout],
-                    "stderr": [result.stderr]
+                    "stdout": [clean_output(result.stdout)],
+                    "stderr": [clean_output(result.stderr)]
                 }
             })
 
@@ -122,10 +147,12 @@ def evaluate_humaneval():
             {
                 "passed": True,
                 "message": "",
+                "failure_kind": "passed",
                 "run_result": {
                     "status": [True],
+                    "failure_kind": ["passed"],
                     "return_code": [result.returncode],
-                    "stdout": [result.stdout],
+                    "stdout": [clean_output(result.stdout)],
                     "stderr": [None]
                 }
             })
@@ -143,8 +170,10 @@ def evaluate_classeval():
             {
                 "passed": False,
                 "message": f"error: {e}",
+                "failure_kind": "bad_request",
                 "run_result": {
                     "status": None,
+                    "failure_kind": None,
                     "return_code": None,
                     "stdout": None,
                     "stderr": None
@@ -163,8 +192,10 @@ def evaluate_classeval():
             {
                 "passed": False,
                 "message": f"error: {id} not found",
+                "failure_kind": "missing_dataset_item",
                 "run_result": {
                     "status": None,
+                    "failure_kind": None,
                     "return_code": None,
                     "stdout": None,
                     "stderr": None
@@ -172,6 +203,7 @@ def evaluate_classeval():
             })
 
     status = []
+    failure_kind = []
     return_code = []
     stdout = []
     stderr = []
@@ -180,36 +212,35 @@ def evaluate_classeval():
             result = compile_and_run(solution + '\n' + test, timeout)
         except subprocess.TimeoutExpired:
             status.append(False)
+            failure_kind.append("timeout")
             return_code.append(None)
             stdout.append(None)
             stderr.append(None)
             continue
 
-        if "error" in result.stderr:
+        passed, kind = judge_result(result)
+        if not passed:
             status.append(False)
+            failure_kind.append(kind)
             return_code.append(result.returncode)
-            stdout.append(result.stdout)
-            stderr.append(result.stderr)
-            continue
-
-        if "fail" in result.stdout.lower():
-            status.append(False)
-            return_code.append(result.returncode)
-            stdout.append(result.stdout)
-            stderr.append(result.stderr)
+            stdout.append(clean_output(result.stdout))
+            stderr.append(clean_output(result.stderr))
             continue
 
         status.append(True)
+        failure_kind.append("passed")
         return_code.append(result.returncode)
-        stdout.append(result.stdout)
+        stdout.append(clean_output(result.stdout))
         stderr.append(None)
 
     return jsonify(
             {
                 "passed": True if all(status) else False,
                 "message": "",
+                "failure_kind": "passed" if all(status) else next((k for k in failure_kind if k != "passed"), "unknown"),
                 "run_result": {
                     "status": status,
+                    "failure_kind": failure_kind,
                     "return_code": return_code,
                     "stdout": stdout,
                     "stderr": stderr
@@ -228,9 +259,11 @@ def run_code():
         return jsonify(
             {
                 "message": f"error: {e}",
+                "failure_kind": "bad_request",
                 "output": None,
                 "run_result": {
                     "status": None,
+                    "failure_kind": None,
                     "return_code": None,
                     "stdout": None,
                     "stderr": None
@@ -243,36 +276,43 @@ def run_code():
         return jsonify(
             {
                 "message": "error: compile and run timeout",
+                "failure_kind": "timeout",
                 "output": None,
                 "run_result": {
                     "status": [False],
+                    "failure_kind": ["timeout"],
                     "return_code": [None],
                     "stdout": [None],
                     "stderr": [None]
                 }
             })
 
-    if "error" in result.stderr:
+    passed, failure_kind = judge_result(result)
+    if not passed:
         return jsonify(
             {
-                "message": f"error: {result.stderr}",
+                "message": f"error: {clean_output(result.stderr) or clean_output(result.stdout)}",
+                "failure_kind": failure_kind,
                 "output": None,
                 "run_result": {
                     "status": [False],
+                    "failure_kind": [failure_kind],
                     "return_code": [result.returncode],
-                    "stdout": [result.stdout],
-                    "stderr": [result.stderr]
+                    "stdout": [clean_output(result.stdout)],
+                    "stderr": [clean_output(result.stderr)]
                 }
             })
 
     return jsonify(
             {
                 "message": "",
-                "output": result.stdout,
+                "failure_kind": "passed",
+                "output": clean_output(result.stdout),
                 "run_result": {
                     "status": [True],
+                    "failure_kind": ["passed"],
                     "return_code": [result.returncode],
-                    "stdout": [result.stdout],
+                    "stdout": [clean_output(result.stdout)],
                     "stderr": [None]
                 }
             })

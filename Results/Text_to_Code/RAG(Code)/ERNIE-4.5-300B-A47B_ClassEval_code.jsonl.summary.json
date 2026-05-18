@@ -1,0 +1,26 @@
+{
+  "input_file": "Text_to_Code/RAG(Code)/ERNIE-4.5-300B-A47B_ClassEval_code.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 4,
+  "compile_error_count": 79,
+  "compile_success_count": 5,
+  "timeout_count": 0,
+  "pass_rate": 0.047619047619047616,
+  "compile_error_rate": 0.9404761904761905,
+  "compile_success_rate": 0.05952380952380952,
+  "failure_kind_counts": {
+    "compile_error": 79,
+    "passed": 4,
+    "runtime_exception": 1
+  },
+  "all_function_count": 342,
+  "success_function_count": 18,
+  "main_function_count": 84,
+  "success_main_function_count": 4,
+  "function_pass_rate": 0.05263157894736842,
+  "main_function_pass_rate": 0.047619047619047616,
+  "records_file": "Text_to_Code/RAG(Code)/ERNIE-4.5-300B-A47B_ClassEval_code.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

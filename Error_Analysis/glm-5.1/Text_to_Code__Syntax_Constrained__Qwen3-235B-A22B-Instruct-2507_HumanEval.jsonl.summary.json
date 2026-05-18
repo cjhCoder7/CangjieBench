@@ -1,0 +1,32 @@
+{
+  "output_file": "error_analysis/glm-5.1/Text_to_Code__Syntax_Constrained__Qwen3-235B-A22B-Instruct-2507_HumanEval.jsonl.llm_labels.jsonl",
+  "expected_rows": 77,
+  "actual_rows": 77,
+  "unique_sample_keys": 77,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 77
+  },
+  "label_counts": {
+    "API_LIBRARY_MISUSE": 40,
+    "TYPE_MUTABILITY_MISUSE": 15,
+    "SYNTAX_FOREIGN_CONSTRUCT": 13,
+    "LOGIC_ERROR": 6,
+    "DUPLICATE_DEFINITION_OR_HARNESS_CONFLICT": 2,
+    "RUNTIME_EXCEPTION": 1
+  },
+  "confidence_counts": {
+    "high": 77
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

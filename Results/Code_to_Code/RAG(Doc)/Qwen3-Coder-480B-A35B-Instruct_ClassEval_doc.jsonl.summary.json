@@ -1,0 +1,26 @@
+{
+  "input_file": "Code_to_Code/RAG(Doc)/Qwen3-Coder-480B-A35B-Instruct_ClassEval_doc.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 7,
+  "compile_error_count": 76,
+  "compile_success_count": 8,
+  "timeout_count": 0,
+  "pass_rate": 0.08333333333333333,
+  "compile_error_rate": 0.9047619047619048,
+  "compile_success_rate": 0.09523809523809523,
+  "failure_kind_counts": {
+    "compile_error": 76,
+    "passed": 7,
+    "test_failure": 1
+  },
+  "all_function_count": 342,
+  "success_function_count": 31,
+  "main_function_count": 84,
+  "success_main_function_count": 7,
+  "function_pass_rate": 0.09064327485380116,
+  "main_function_pass_rate": 0.08333333333333333,
+  "records_file": "Code_to_Code/RAG(Doc)/Qwen3-Coder-480B-A35B-Instruct_ClassEval_doc.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "Code_to_Code/Agent/iFlow_Kimi-K2-0905_HumanEval.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 79,
+  "compile_error_count": 79,
+  "compile_success_count": 85,
+  "timeout_count": 0,
+  "pass_rate": 0.4817073170731707,
+  "compile_error_rate": 0.4817073170731707,
+  "compile_success_rate": 0.5182926829268293,
+  "failure_kind_counts": {
+    "passed": 79,
+    "compile_error": 79,
+    "runtime_exception": 1,
+    "test_failure": 5
+  },
+  "records_file": "Code_to_Code/Agent/iFlow_Kimi-K2-0905_HumanEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

@@ -1,0 +1,21 @@
+{
+  "input_file": "Text_to_Code/Syntax_Constrained/DeepSeek-V3_HumanEval.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 67,
+  "compile_error_count": 86,
+  "compile_success_count": 78,
+  "timeout_count": 0,
+  "pass_rate": 0.40853658536585363,
+  "compile_error_rate": 0.524390243902439,
+  "compile_success_rate": 0.47560975609756095,
+  "failure_kind_counts": {
+    "passed": 67,
+    "compile_error": 86,
+    "test_failure": 10,
+    "runtime_exception": 1
+  },
+  "records_file": "Text_to_Code/Syntax_Constrained/DeepSeek-V3_HumanEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

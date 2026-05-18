@@ -1,0 +1,20 @@
+{
+  "input_file": "Pass10/Qwen3-235B-A22B-Instruct-2507_HumanEval_10samples_concurrent.jsonl",
+  "dataset": "HumanEval",
+  "total_tasks": 164,
+  "samples_per_task": 10,
+  "total_samples": 1640,
+  "pass_at_10_count": 122,
+  "pass_at_10_rate": 0.7439024390243902,
+  "pass_at_1_count": 852,
+  "pass_at_1_rate": 0.5195121951219512,
+  "compile_error_count": 704,
+  "compile_success_count": 931,
+  "timeout_count": 5,
+  "compile_success_rate": 0.5676829268292682,
+  "total_input_tokens": 4223580,
+  "total_output_tokens": 323457,
+  "avg_input_tokens_per_task": 25753.536585365855,
+  "avg_output_tokens_per_task": 1972.2987804878048,
+  "records_file": "Pass10/Qwen3-235B-A22B-Instruct-2507_HumanEval_pass10.records.jsonl"
+}

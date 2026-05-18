@@ -1,0 +1,20 @@
+{
+  "input_file": "Pass10/Kimi-K2-Instruct-0905_HumanEval_10samples_concurrent.jsonl",
+  "dataset": "HumanEval",
+  "total_tasks": 164,
+  "samples_per_task": 10,
+  "total_samples": 1640,
+  "pass_at_10_count": 138,
+  "pass_at_10_rate": 0.8414634146341463,
+  "pass_at_1_count": 889,
+  "pass_at_1_rate": 0.5420731707317074,
+  "compile_error_count": 659,
+  "compile_success_count": 974,
+  "timeout_count": 7,
+  "compile_success_rate": 0.5939024390243902,
+  "total_input_tokens": 4176260,
+  "total_output_tokens": 271513,
+  "avg_input_tokens_per_task": 25465.0,
+  "avg_output_tokens_per_task": 1655.5670731707316,
+  "records_file": "Pass10/Kimi-K2-Instruct-0905_HumanEval_pass10.records.jsonl"
+}

@@ -167,17 +167,38 @@ POST /evaluate_humaneval
 | `solution` | `string` | The Cangjie code to evaluate |
 
 <details>
-<summary><b>Example Response</b></summary>
+<summary><b>Example Response (passed)</b></summary>
 
 ```json
 {
     "passed": true,
     "message": "",
+    "failure_kind": "passed",
     "run_result": {
         "status": [true],
+        "failure_kind": ["passed"],
         "return_code": [0],
         "stdout": ["All tests passed."],
         "stderr": [null]
+    }
+}
+```
+</details>
+
+<details>
+<summary><b>Example Response (failed)</b></summary>
+
+```json
+{
+    "passed": false,
+    "message": "error: expected '(', found 'i'",
+    "failure_kind": "compile_error",
+    "run_result": {
+        "status": [false],
+        "failure_kind": ["compile_error"],
+        "return_code": [1],
+        "stdout": [""],
+        "stderr": ["error: expected '(', found 'i'"]
     }
 }
 ```
@@ -202,17 +223,39 @@ POST /evaluate_classeval
 | `solution` | `string` | The Cangjie code to evaluate |
 
 <details>
-<summary><b>Example Response</b></summary>
+<summary><b>Example Response (passed)</b></summary>
 
 ```json
 {
     "passed": true,
     "message": "",
+    "failure_kind": "passed",
     "main_function_passed": true,
     "run_result": {
         "status": [true, true, true],
+        "failure_kind": ["passed", "passed", "passed"],
         "return_code": [0, 0, 0],
         "stdout": ["...", "...", "..."],
+        "stderr": [null, null, null]
+    }
+}
+```
+</details>
+
+<details>
+<summary><b>Example Response (partial failure)</b></summary>
+
+```json
+{
+    "passed": false,
+    "message": "",
+    "failure_kind": "test_failure",
+    "main_function_passed": true,
+    "run_result": {
+        "status": [false, true, true],
+        "failure_kind": ["test_failure", "passed", "passed"],
+        "return_code": [1, 0, 0],
+        "stdout": ["fail", "...", "..."],
         "stderr": [null, null, null]
     }
 }
@@ -237,17 +280,38 @@ POST /run_code
 | `solution` | `string` | The Cangjie code to run |
 
 <details>
-<summary><b>Example Response</b></summary>
+<summary><b>Example Response (passed)</b></summary>
 
 ```json
 {
     "message": "",
+    "failure_kind": "passed",
     "output": "Hello, Cangjie!",
     "run_result": {
         "status": [true],
+        "failure_kind": ["passed"],
         "return_code": [0],
         "stdout": ["Hello, Cangjie!"],
         "stderr": [null]
+    }
+}
+```
+</details>
+
+<details>
+<summary><b>Example Response (compile error)</b></summary>
+
+```json
+{
+    "message": "error: expected '(', found 'i'",
+    "failure_kind": "compile_error",
+    "output": null,
+    "run_result": {
+        "status": [false],
+        "failure_kind": ["compile_error"],
+        "return_code": [1],
+        "stdout": [""],
+        "stderr": ["error: expected '(', found 'i'"]
     }
 }
 ```

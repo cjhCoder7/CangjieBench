@@ -1,0 +1,32 @@
+{
+  "output_file": "error_analysis/kimi-k2.6/Code_to_Code__RAG__Doc__Kimi-K2-Instruct-0905_HumanEval_doc.jsonl.llm_labels.jsonl",
+  "expected_rows": 114,
+  "actual_rows": 114,
+  "unique_sample_keys": 114,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "duplicate_sample_keys": 0,
+  "invalid_json_rows": 0,
+  "invalid_label_rows": 0,
+  "invalid_confidence_rows": 0,
+  "status_counts": {
+    "ok": 114
+  },
+  "label_counts": {
+    "API_LIBRARY_MISUSE": 55,
+    "TYPE_MUTABILITY_MISUSE": 26,
+    "SYNTAX_FOREIGN_CONSTRUCT": 23,
+    "LOGIC_ERROR": 5,
+    "DUPLICATE_DEFINITION_OR_HARNESS_CONFLICT": 4,
+    "RUNTIME_EXCEPTION": 1
+  },
+  "confidence_counts": {
+    "high": 114
+  },
+  "is_complete": true,
+  "examples": {
+    "missing_sample_keys": [],
+    "extra_sample_keys": [],
+    "duplicate_sample_keys": {}
+  }
+}

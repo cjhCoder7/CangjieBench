@@ -1,0 +1,2144 @@
+[
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "58",
+    "sample_index": 9,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 2.9,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 2.5,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 2.8,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_sweep()(/tmp/cj_eval_zz1co34f/main.cj:171)\n\t at default.main()(/tmp/cj_eval_zz1co34f/main.cj:294)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 2.4,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_minesweeper_main()(/tmp/cj_eval_9h82is1s/main.cj:201)\n\t at default.main()(/tmp/cj_eval_9h82is1s/main.cj:280)\n"
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 8.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 6.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.7,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 8.2,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_eyz7s_i7/main.cj:105)\n\t at default.main()(/tmp/cj_eval_eyz7s_i7/main.cj:117)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.0,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 2,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.4,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 5.5,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_n57tv564/main.cj:103)\n\t at default.main()(/tmp/cj_eval_n57tv564/main.cj:115)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 3,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 6.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 5.7,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 5.4,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_yshx52wb/main.cj:106)\n\t at default.main()(/tmp/cj_eval_yshx52wb/main.cj:118)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 4,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 5.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 5.3,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 6.2,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_dx6pd7y_/main.cj:105)\n\t at default.main()(/tmp/cj_eval_dx6pd7y_/main.cj:117)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 5,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 5.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 9.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 7.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 7.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 8.4,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_vx0qtbot/main.cj:108)\n\t at default.main()(/tmp/cj_eval_vx0qtbot/main.cj:120)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 8,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 7.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 7.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 6.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 7.3,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 10.0,
+        "stderr": "warning: unused variable:'coolConflict'\n  ==> main.cj:44:13:\n   | \n44 |         let coolConflict = this.mode == \"cool\" && this.current_temperature < this.target_temperature\n   |             ^^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_ladoa8nf/main.cj:106)\n\t at default.main()(/tmp/cj_eval_ladoa8nf/main.cj:118)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_ClassEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 9,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 8.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 9.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 9.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 8.8,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 7.9,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_9pj0scyh/main.cj:100)\n\t at default.main()(/tmp/cj_eval_9pj0scyh/main.cj:112)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_HumanEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 3,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "DeepSeek-V3_HumanEval",
+    "model_name": "DeepSeek-V3",
+    "dataset": "HumanEval",
+    "task_id": "155",
+    "sample_index": 5,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "ERNIE-4.5-300B-A47B_ClassEval",
+    "model_name": "ERNIE-4.5-300B-A47B",
+    "dataset": "ClassEval",
+    "task_id": "58",
+    "sample_index": 2,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 2.8,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_sweep_2()(/tmp/cj_eval_f4gynzgv/main.cj:172)\n\t at default.main()(/tmp/cj_eval_f4gynzgv/main.cj:276)\n"
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.0,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "ERNIE-4.5-300B-A47B_ClassEval",
+    "model_name": "ERNIE-4.5-300B-A47B",
+    "dataset": "ClassEval",
+    "task_id": "58",
+    "sample_index": 5,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 2.7,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.3,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 3.1,
+        "stderr": "warning: unused variable:'i'\n  ==> main.cj:26:14:\n   | \n26 |         for (i in 0..n) {\n   |              ^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\nwarning: unused variable:'j'\n  ==> main.cj:28:18:\n   | \n28 |             for (j in 0..n) {\n   |                  ^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\nwarning: unused variable:'i'\n  ==> main.cj:68:14:\n   | \n68 |         for (i in 0..n) {\n   |              ^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\nwarning: unused variable:'j'\n  ==> main.cj:70:18:\n   | \n70 |             for (j in 0..n) {\n   |                  ^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n4 warnings generated, 4 warnings printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_sweep_2()(/tmp/cj_eval_t8r9q6xz/main.cj:169)\n\t at default.main()(/tmp/cj_eval_t8r9q6xz/main.cj:269)\n"
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.0,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "ERNIE-4.5-300B-A47B_ClassEval",
+    "model_name": "ERNIE-4.5-300B-A47B",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 10.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 9.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 9.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 12.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 10.9,
+        "stderr": "warning: unused variable:'start_time'\n  ==> main.cj:56:13:\n   | \n56 |         let start_time: Int64 = 0 // Simplified time tracking\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_9d5s8z9f/main.cj:106)\n\t at default.main()(/tmp/cj_eval_9d5s8z9f/main.cj:118)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 11.6,
+        "stderr": "warning: unused variable:'start_time'\n  ==> main.cj:56:13:\n   | \n56 |         let start_time: Int64 = 0 // Simplified time tracking\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_mr5jp635/main.cj:72)\n\t at default.main()(/tmp/cj_eval_mr5jp635/main.cj:135)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "ERNIE-4.5-300B-A47B_ClassEval",
+    "model_name": "ERNIE-4.5-300B-A47B",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 1,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 16.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 10.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.6,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 11.5,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_dp8dxdej/main.cj:112)\n\t at default.main()(/tmp/cj_eval_dp8dxdej/main.cj:124)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "ERNIE-4.5-300B-A47B_ClassEval",
+    "model_name": "ERNIE-4.5-300B-A47B",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 8,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 17.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 12.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.5,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 10.4,
+        "stderr": "warning: unused variable:'start_temp'\n  ==> main.cj:52:13:\n   | \n52 |         let start_temp = this.current_temperature\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\nwarning: unused variable:'steps_needed'\n  ==> main.cj:55:13:\n   | \n55 |         let steps_needed = temp_diff / 1.0  // Assuming 1.0 degree per time unit\n   |             ^^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n2 warnings generated, 2 warnings printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_5mlijyj5/main.cj:109)\n\t at default.main()(/tmp/cj_eval_5mlijyj5/main.cj:121)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "ERNIE-4.5-300B-A47B_ClassEval",
+    "model_name": "ERNIE-4.5-300B-A47B",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 9,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 12.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 14.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 13.5,
+        "stderr": "warning: unused variable:'is_heating'\n  ==> main.cj:44:13:\n   | \n44 |         let is_heating = this.mode == \"heat\"\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\nwarning: unused variable:'start_temp'\n  ==> main.cj:55:13:\n   | \n55 |         let start_temp = this.current_temperature\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n2 warnings generated, 2 warnings printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_ydi_uv8z/main.cj:110)\n\t at default.main()(/tmp/cj_eval_ydi_uv8z/main.cj:122)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 14.4,
+        "stderr": "warning: unused variable:'is_heating'\n  ==> main.cj:44:13:\n   | \n44 |         let is_heating = this.mode == \"heat\"\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\nwarning: unused variable:'start_temp'\n  ==> main.cj:55:13:\n   | \n55 |         let start_temp = this.current_temperature\n   |             ^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n2 warnings generated, 2 warnings printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_jziq7gt7/main.cj:76)\n\t at default.main()(/tmp/cj_eval_jziq7gt7/main.cj:139)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.0,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "58",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.4,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 4.4,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 3.7,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_sweep()(/tmp/cj_eval_ob0ehafl/main.cj:149)\n\t at default.main()(/tmp/cj_eval_ob0ehafl/main.cj:272)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 3.6,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_minesweeper_main()(/tmp/cj_eval_868_70g6/main.cj:179)\n\t at default.main()(/tmp/cj_eval_868_70g6/main.cj:258)\n"
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "58",
+    "sample_index": 1,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.3,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 3.8,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 3.9,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_sweep()(/tmp/cj_eval_z939pjwg/main.cj:123)\n\t at default.main()(/tmp/cj_eval_z939pjwg/main.cj:246)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 3.5,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_minesweeper_main()(/tmp/cj_eval_skala7pd/main.cj:153)\n\t at default.main()(/tmp/cj_eval_skala7pd/main.cj:232)\n"
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 13.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 15.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 15.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 15.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 15.9,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 15.6,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_vb5st3di/main.cj:104)\n\t at default.main()(/tmp/cj_eval_vb5st3di/main.cj:116)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 15.3,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_kq61a58j/main.cj:70)\n\t at default.main()(/tmp/cj_eval_kq61a58j/main.cj:133)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.0,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 1,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 19.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 16.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 16.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 21.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 15.8,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 17.8,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_tq1rudcm/main.cj:104)\n\t at default.main()(/tmp/cj_eval_tq1rudcm/main.cj:116)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 3,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 16.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 16.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 16.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 17.8,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 5,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 21.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 17.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 17.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.4,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 17.7,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_qxdufua9/main.cj:106)\n\t at default.main()(/tmp/cj_eval_qxdufua9/main.cj:118)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 6,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 18.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 19.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 19.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 19.1,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_1uk9j2c9/main.cj:108)\n\t at default.main()(/tmp/cj_eval_1uk9j2c9/main.cj:120)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 7,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 22.3,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_vgo_b9t6/main.cj:103)\n\t at default.main()(/tmp/cj_eval_vgo_b9t6/main.cj:115)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Kimi-K2-Instruct-0905_ClassEval",
+    "model_name": "Kimi-K2-Instruct-0905",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 8,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 21.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 21.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 20.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 20.4,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 19.9,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_o3as7jsv/main.cj:109)\n\t at default.main()(/tmp/cj_eval_o3as7jsv/main.cj:121)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-235B-A22B-Instruct-2507_ClassEval",
+    "model_name": "Qwen3-235B-A22B-Instruct-2507",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.4,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 22.4,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_t2um_bbh/main.cj:114)\n\t at default.main()(/tmp/cj_eval_t2um_bbh/main.cj:126)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 21.8,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_0zuc04hm/main.cj:80)\n\t at default.main()(/tmp/cj_eval_0zuc04hm/main.cj:143)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-235B-A22B-Instruct-2507_ClassEval",
+    "model_name": "Qwen3-235B-A22B-Instruct-2507",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 1,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 21.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 21.9,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_c_6gw12n/main.cj:123)\n\t at default.main()(/tmp/cj_eval_c_6gw12n/main.cj:132)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 23.5,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_8x0fgafa/main.cj:86)\n\t at default.main()(/tmp/cj_eval_8x0fgafa/main.cj:149)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-235B-A22B-Instruct-2507_ClassEval",
+    "model_name": "Qwen3-235B-A22B-Instruct-2507",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 5,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 21.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.9,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 21.7,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_ee_p1onf/main.cj:84)\n\t at default.main()(/tmp/cj_eval_ee_p1onf/main.cj:147)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-235B-A22B-Instruct-2507_ClassEval",
+    "model_name": "Qwen3-235B-A22B-Instruct-2507",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 6,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 23.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 22.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.6,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 26.4,
+        "stderr": "warning: unused variable:'should_cool'\n  ==> main.cj:47:13:\n   | \n47 |         let should_cool = !should_heat\n   |             ^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_g82f6m4a/main.cj:111)\n\t at default.main()(/tmp/cj_eval_g82f6m4a/main.cj:123)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 23.5,
+        "stderr": "warning: unused variable:'should_cool'\n  ==> main.cj:47:13:\n   | \n47 |         let should_cool = !should_heat\n   |             ^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_s_363p39/main.cj:77)\n\t at default.main()(/tmp/cj_eval_s_363p39/main.cj:140)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-235B-A22B-Instruct-2507_ClassEval",
+    "model_name": "Qwen3-235B-A22B-Instruct-2507",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 7,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 26.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 25.0,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_34lu2xcp/main.cj:78)\n\t at default.main()(/tmp/cj_eval_34lu2xcp/main.cj:141)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-235B-A22B-Instruct-2507_ClassEval",
+    "model_name": "Qwen3-235B-A22B-Instruct-2507",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 8,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 26.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 26.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 26.6,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_pvslipw1/main.cj:78)\n\t at default.main()(/tmp/cj_eval_pvslipw1/main.cj:141)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_ClassEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "ClassEval",
+    "task_id": "54",
+    "sample_index": 2,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 10.8,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 11.2,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_is_valid_move_6()(/tmp/cj_eval_rrxrvwa9/main.cj:300)\n\t at default.main()(/tmp/cj_eval_rrxrvwa9/main.cj:310)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 11.9,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 9.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 8.5,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_ClassEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.6,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 26.5,
+        "stderr": "warning: unused variable:'temperature'\n  ==> main.cj:35:40:\n   | \n35 |     public func set_target_temperature(temperature: Float64): Unit {\n   |                                        ^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_set_target_temperature_1()(/tmp/cj_eval_s17zhnvm/main.cj:135)\n\t at default.main()(/tmp/cj_eval_s17zhnvm/main.cj:172)\n"
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.6,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 23.9,
+        "stderr": "warning: unused variable:'temperature'\n  ==> main.cj:35:40:\n   | \n35 |     public func set_target_temperature(temperature: Float64): Unit {\n   |                                        ^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_2jhl6rf7/main.cj:168)\n\t at default.main()(/tmp/cj_eval_2jhl6rf7/main.cj:180)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 27.9,
+        "stderr": "warning: unused variable:'temperature'\n  ==> main.cj:35:40:\n   | \n35 |     public func set_target_temperature(temperature: Float64): Unit {\n   |                                        ^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_main()(/tmp/cj_eval_iy7l57aa/main.cj:139)\n\t at default.main()(/tmp/cj_eval_iy7l57aa/main.cj:161)\n"
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_ClassEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 3,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 28.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 28.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.4,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 26.5,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 28.9,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_1la91cvw/main.cj:166)\n\t at default.main()(/tmp/cj_eval_1la91cvw/main.cj:178)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.3,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.3,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_ClassEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 4,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 26.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.2,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 24.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 29.0,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 27.5,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_pldl0te3/main.cj:167)\n\t at default.main()(/tmp/cj_eval_pldl0te3/main.cj:179)\n"
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 26.4,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_simulate_operation_1()(/tmp/cj_eval_axgnnntc/main.cj:133)\n\t at default.main()(/tmp/cj_eval_axgnnntc/main.cj:196)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_ClassEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 6,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 32.0,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.6,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.3,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 26.8,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 25.8,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 28.4,
+        "stderr": "An exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_6ikp5y1m/main.cj:161)\n\t at default.main()(/tmp/cj_eval_6ikp5y1m/main.cj:173)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.3,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.3,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_ClassEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "ClassEval",
+    "task_id": "85",
+    "sample_index": 8,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "test_failure",
+    "runs": [
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 30.7,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 28.1,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 27.5,
+        "stderr": null
+      },
+      {
+        "passed": true,
+        "timeout": false,
+        "elapsed_sec": 29.2,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": false,
+        "elapsed_sec": 27.6,
+        "stderr": "warning: unused variable:'cool_conflict'\n  ==> main.cj:98:13:\n   | \n98 |         let cool_conflict = this.mode == \"cool\" && this.current_temperature < this.target_temperature\n   |             ^^^^^^^^^^^^^ unused variable\n   | \n   # note: this warning can be suppressed by setting the compiler option `-Woff unused`\n\n1 warning generated, 1 warning printed.\nAn exception has occurred:\nException: Test failed!\n\t at default.test_auto_check_conflict_5()(/tmp/cj_eval_m73pahvs/main.cj:169)\n\t at default.main()(/tmp/cj_eval_m73pahvs/main.cj:181)\n"
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      },
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_HumanEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 0,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_HumanEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 2,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_HumanEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 4,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_HumanEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 5,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_HumanEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 7,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.2,
+        "stderr": null
+      }
+    ]
+  },
+  {
+    "stem": "Qwen3-Coder-480B-A35B-Instruct_HumanEval",
+    "model_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "dataset": "HumanEval",
+    "task_id": "116",
+    "sample_index": 9,
+    "timeout_extended": 300,
+    "passed": false,
+    "failure_kind": "timeout",
+    "runs": [
+      {
+        "passed": false,
+        "timeout": true,
+        "elapsed_sec": 300.1,
+        "stderr": null
+      }
+    ]
+  }
+]

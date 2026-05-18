@@ -1,0 +1,26 @@
+{
+  "input_file": "Text_to_Code/Syntax_Constrained/gpt-5_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 20,
+  "compile_error_count": 50,
+  "compile_success_count": 34,
+  "timeout_count": 0,
+  "pass_rate": 0.23809523809523808,
+  "compile_error_rate": 0.5952380952380952,
+  "compile_success_rate": 0.40476190476190477,
+  "failure_kind_counts": {
+    "compile_error": 50,
+    "passed": 20,
+    "test_failure": 14
+  },
+  "all_function_count": 342,
+  "success_function_count": 101,
+  "main_function_count": 84,
+  "success_main_function_count": 31,
+  "function_pass_rate": 0.2953216374269006,
+  "main_function_pass_rate": 0.36904761904761907,
+  "records_file": "Text_to_Code/Syntax_Constrained/gpt-5_ClassEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

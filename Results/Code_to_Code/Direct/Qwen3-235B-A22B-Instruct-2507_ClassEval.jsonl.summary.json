@@ -1,0 +1,25 @@
+{
+  "input_file": "Code_to_Code/Direct/Qwen3-235B-A22B-Instruct-2507_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 2,
+  "compile_error_count": 82,
+  "compile_success_count": 2,
+  "timeout_count": 0,
+  "pass_rate": 0.023809523809523808,
+  "compile_error_rate": 0.9761904761904762,
+  "compile_success_rate": 0.023809523809523808,
+  "failure_kind_counts": {
+    "compile_error": 82,
+    "passed": 2
+  },
+  "all_function_count": 342,
+  "success_function_count": 8,
+  "main_function_count": 84,
+  "success_main_function_count": 2,
+  "function_pass_rate": 0.023391812865497075,
+  "main_function_pass_rate": 0.023809523809523808,
+  "records_file": "Code_to_Code/Direct/Qwen3-235B-A22B-Instruct-2507_ClassEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

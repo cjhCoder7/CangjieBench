@@ -1,0 +1,21 @@
+{
+  "input_file": "Code_to_Code/RAG(Doc)/DeepSeek-V3_HumanEval_doc.jsonl",
+  "dataset": "HumanEval",
+  "total": 164,
+  "pass_count": 35,
+  "compile_error_count": 127,
+  "compile_success_count": 37,
+  "timeout_count": 0,
+  "pass_rate": 0.21341463414634146,
+  "compile_error_rate": 0.774390243902439,
+  "compile_success_rate": 0.22560975609756098,
+  "failure_kind_counts": {
+    "compile_error": 127,
+    "passed": 35,
+    "runtime_exception": 1,
+    "test_failure": 1
+  },
+  "records_file": "Code_to_Code/RAG(Doc)/DeepSeek-V3_HumanEval_doc.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 20
+}

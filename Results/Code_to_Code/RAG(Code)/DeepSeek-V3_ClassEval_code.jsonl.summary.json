@@ -1,0 +1,25 @@
+{
+  "input_file": "Code_to_Code/RAG(Code)/DeepSeek-V3_ClassEval_code.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 4,
+  "compile_error_count": 80,
+  "compile_success_count": 4,
+  "timeout_count": 0,
+  "pass_rate": 0.047619047619047616,
+  "compile_error_rate": 0.9523809523809523,
+  "compile_success_rate": 0.047619047619047616,
+  "failure_kind_counts": {
+    "compile_error": 80,
+    "passed": 4
+  },
+  "all_function_count": 342,
+  "success_function_count": 15,
+  "main_function_count": 84,
+  "success_main_function_count": 4,
+  "function_pass_rate": 0.043859649122807015,
+  "main_function_pass_rate": 0.047619047619047616,
+  "records_file": "Code_to_Code/RAG(Code)/DeepSeek-V3_ClassEval_code.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

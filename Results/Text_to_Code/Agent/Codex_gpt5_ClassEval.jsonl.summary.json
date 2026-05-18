@@ -1,0 +1,27 @@
+{
+  "input_file": "Text_to_Code/Agent/Codex_gpt5_ClassEval.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 27,
+  "compile_error_count": 27,
+  "compile_success_count": 57,
+  "timeout_count": 0,
+  "pass_rate": 0.32142857142857145,
+  "compile_error_rate": 0.32142857142857145,
+  "compile_success_rate": 0.6785714285714286,
+  "failure_kind_counts": {
+    "test_failure": 28,
+    "compile_error": 27,
+    "passed": 27,
+    "runtime_exception": 2
+  },
+  "all_function_count": 342,
+  "success_function_count": 195,
+  "main_function_count": 84,
+  "success_main_function_count": 46,
+  "function_pass_rate": 0.5701754385964912,
+  "main_function_pass_rate": 0.5476190476190477,
+  "records_file": "Text_to_Code/Agent/Codex_gpt5_ClassEval.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}

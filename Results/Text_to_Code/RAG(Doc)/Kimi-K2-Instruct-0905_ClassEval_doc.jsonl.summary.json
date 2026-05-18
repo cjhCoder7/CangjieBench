@@ -1,0 +1,26 @@
+{
+  "input_file": "Text_to_Code/RAG(Doc)/Kimi-K2-Instruct-0905_ClassEval_doc.jsonl",
+  "dataset": "ClassEval",
+  "total": 84,
+  "pass_count": 6,
+  "compile_error_count": 74,
+  "compile_success_count": 10,
+  "timeout_count": 0,
+  "pass_rate": 0.07142857142857142,
+  "compile_error_rate": 0.8809523809523809,
+  "compile_success_rate": 0.11904761904761904,
+  "failure_kind_counts": {
+    "compile_error": 74,
+    "passed": 6,
+    "test_failure": 4
+  },
+  "all_function_count": 342,
+  "success_function_count": 36,
+  "main_function_count": 84,
+  "success_main_function_count": 7,
+  "function_pass_rate": 0.10526315789473684,
+  "main_function_pass_rate": 0.08333333333333333,
+  "records_file": "Text_to_Code/RAG(Doc)/Kimi-K2-Instruct-0905_ClassEval_doc.jsonl.records.jsonl",
+  "timeout": 120,
+  "max_workers": 4
+}
