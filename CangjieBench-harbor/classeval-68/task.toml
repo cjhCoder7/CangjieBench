@@ -1,0 +1,30 @@
+[task]
+name = "cangjiebench/classeval-68"
+version = "1.0.0"
+authors = [{ name = "CangjieBench" }]
+
+[metadata]
+source = "CangjieBench"
+source_id = "ClassEval:68"
+category = "programming"
+tags = ["cangjie", "classeval", "class-completion"]
+test_group_count = 4
+
+[verifier]
+timeout_sec = 600.0
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]

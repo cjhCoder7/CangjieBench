@@ -18,6 +18,14 @@ After filtering to repositories whose code is at least 80% Cangjie and parsing w
 
 ---
 
+## Version Scope
+
+For the Code RAG experiments, we crawled as much publicly available Cangjie code as we could collect. The crawl did not enforce a single Cangjie SDK or compiler version: at the time, the amount of code pinned to a specific version was limited, so restricting the crawl would have substantially reduced the retrieval corpus.
+
+Cangjie syntax is generally stable across versions, especially in the simple function- and class-level code used for retrieval and generation. We therefore expect the mixed-version corpus to have little effect on the benchmark results, while providing broader coverage of useful Cangjie examples.
+
+---
+
 ## Directory Structure
 
 ```text

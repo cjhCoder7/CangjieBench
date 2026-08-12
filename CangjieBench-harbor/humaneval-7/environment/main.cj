@@ -1,0 +1,12 @@
+import std.collection.ArrayList
+
+func filter_by_substring(strings: ArrayList<String>, substring: String): ArrayList<String> {
+    /*
+    Filter an input list of strings only for ones that contain given substring
+    >>> filter_by_substring(ArrayList<String>([]), 'a')
+    []
+    >>> filter_by_substring(ArrayList<String>(['abc', 'bacd', 'cde', 'array']), 'a')
+    ['abc', 'bacd', 'array']
+    */
+    
+}

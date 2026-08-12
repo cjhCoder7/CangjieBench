@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cat > /workspace/main.cj <<'__CANGJIEBENCH_SOLUTION__'
+import std.collection.ArrayList
+import std.sort.sort
+
+func sort_array(array: ArrayList<Int64>): ArrayList<Int64> {
+    /*
+    Given an array of non-negative integers, return a copy of the given array after sorting,
+    you will sort the given array in ascending order if the sum( first index value, last index value) is odd,
+    or sort it in descending order if the sum( first index value, last index value) is even.
+
+    Note:
+    * don't change the given array.
+
+    Examples:
+    * sort_array(ArrayList<Int64>([])) => []
+    * sort_array(ArrayList<Int64>([5])) => [5]
+    * sort_array(ArrayList<Int64>([2, 4, 3, 0, 1, 5])) => [0, 1, 2, 3, 4, 5]
+    * sort_array(ArrayList<Int64>([2, 4, 3, 0, 1, 5, 6])) => [6, 5, 4, 3, 2, 1, 0]
+    */
+    if (array.size == 0) {
+        return ArrayList<Int64>()
+    }
+    var reverse_flag = false
+    if ((array[0] + array[array.size - 1]) % 2 == 0) {
+        reverse_flag = true
+    }
+    sort(array, descending: reverse_flag)
+    return array
+}
+__CANGJIEBENCH_SOLUTION__
